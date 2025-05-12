@@ -1,0 +1,27 @@
+kafka:
+  brokers:
+    - "localhost:19092"
+    - "localhost:29092"
+  topic_raw: "thedyrt-raw"
+  topic_raw_detailed: "thedyrt-raw-detailed"
+  topic_enriched: "thedyrt-enriched"
+  topic_enriched_detailed: thedyrt-enriched-detailed
+  group_extract: "campground-extractor"
+  group_transform: "campground-transformer"
+  group_load: "campground-loader"
+
+api:
+  detail_result_url: "https://thedyrt.com/api/v6/campgrounds"
+  search_result_url: "https://thedyrt.com/api/v6/locations/search-results"
+  page_size: 1000
+
+
+geocoder:
+  user_agent: "camp-scraper"
+  rate_limit_seconds: 1
+
+database:
+  url: "postgresql+psycopg2://user:password@localhost:5433/case_study"
+
+logging:
+  level: "INFO"
