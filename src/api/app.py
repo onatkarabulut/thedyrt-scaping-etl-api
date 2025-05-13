@@ -1,4 +1,3 @@
-# src/api/main.py
 from fastapi import FastAPI
 from src.api.services import etl
 
@@ -8,4 +7,4 @@ app = FastAPI(
     version="1.0.0",
 )
 
-app.include_router(etl.router, prefix="/Pipeline", tags=["RUN"])
+app.include_router(etl, prefix="/Pipeline", tags=["RUN"])

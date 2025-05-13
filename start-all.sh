@@ -1,35 +1,64 @@
-#!/usr/bin/env bash
-# set -e
+#!/bin/bash
+set -e
 
-# echo "🛠  Starting Zookeeper & Kafka brokers..."
-# docker-compose up -d zookeeper kafka-broker-1 kafka-broker-2
+ENV_NAME="thedyrt-env"
 
-# echo "⏳  Waiting for Kafka to settle..."
-# sleep 15
+if conda env list | grep -q "^${ENV_NAME}[[:space:]]"; then
+    echo "Conda environment '$ENV_NAME' already exists."
+else
+    echo "Creating Conda environment '$ENV_NAME'"
+    conda env create -f environment.yml
+fi
 
-# echo "🗒️  Creating Kafka topics..."
-# # raw veriyi extract.py → thedrt (RAW_TOPIC) olarak atıyor
-# docker exec kafka-broker-1 kafka-topics --bootstrap-server kafka-broker-1:9092 \
-#   --create --topic thedrt --partitions 3 --replication-factor 1 \
-#   --if-not-exists
+echo "=========================================="
+echo "Activating Conda environment '$ENV_NAME'"
+echo "=========================================="
+source "$(conda info --base)/etc/profile.d/conda.sh"
+conda activate "$ENV_NAME"
 
-# # transform.py sonuçları thedrt-enriched (ENRICHED_TOPIC) olarak atıyor
-# docker exec kafka-broker-1 kafka-topics --bootstrap-server kafka-broker-1:9092 \
-#   --create --topic thedrt-enriched --partitions 3 --replication-factor 1 \
-#   --if-not-exists
+echo "=========================================="
+echo "Starting Docker Compose in detached mode"
+echo "=========================================="
+sudo docker-compose up > logs/docker.log 2>&1 &
 
-source activate test_env
+echo "=========================================="
+echo "Waiting for services to initialize... (Around 60 seconds)"
+sleep 60
 
-# echo "📦  Launching Extractor (produce → thedrt)…"
-# python3 -m src.pipeline.extract --all &> logs/kafka_logs/extract.log &
+echo "=========================================="
+echo "Creating Kafka topics if not exists..."
+echo "=========================================="
+kafka-topics --bootstrap-server kafka-broker-1:9092 \
+  --create --if-not-exists --topic thedyrt-enriched --partitions 3 --replication-factor 1 || true
 
-echo "🔄  Launching Transformer (consume thedrt → produce thedrt-enriched)…"
-python3 -m src.pipeline.transform &> logs/kafka_logs/transform.log &
+kafka-topics --bootstrap-server kafka-broker-1:9092 \
+  --create --if-not-exists --topic thedyrt-raw --partitions 3 --replication-factor 1 || true
 
-echo "💾  Launching Loader (consume thedrt-enriched → upsert DB)…"
-python3 -m src.pipeline.load &> logs/kafka_logs/load.log &
 
-echo "✅  All kafka pipeline started. Logs are under logs/kafka_logs/*.log"
+echo "=========================================="
+echo "Listing Kafka topics"
+echo "=========================================="
+sudo docker exec kafka-broker-1 kafka-topics --list --bootstrap-server kafka-broker-1:9092
 
-docker exec -it airflow-scheduler bash
-pip3 install reverse-geocode
+
+echo "=========================================="
+echo "Starting FastAPI server"
+echo "=========================================="
+fastapi run api/app.py --reload > logs/api_logs/api.log 2>&1 &
+
+
+
+echo "🔄 Starting pipeline components..."
+
+mkdir -p logs/kafka_logs
+echo "=========================================="
+echo "Starting Kafka pipeline components"
+echo "=========================================="
+nohup python3 -m src.pipeline.extract > logs/kafka_logs/extract.log 2>&1 &
+nohup python3 -m src.pipeline.transform > logs/kafka_logs/transform.log 2>&1 &
+nohup python3 -m src.pipeline.load > logs/kafka_logs/load.log 2>&1 &
+
+
+echo "✅ Kafka pipeline is up and running."
+
+exec python main.py

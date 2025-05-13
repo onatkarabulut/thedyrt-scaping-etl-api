@@ -20,7 +20,7 @@ ENRICHED_TOPIC  = cfg.kafka["topic_enriched"]
 GROUP_ID        = cfg.kafka["group_load"]
 
 log_level = getattr(logging, cfg.logging_level.upper(), logging.INFO)
-log_file = "logs/kafka_logs/loader.log"
+log_file = "logs/kafka_logs/load.log"
 logging.basicConfig(
     level=log_level,
     format="%(asctime)s [%(levelname)s] %(message)s",
@@ -29,7 +29,7 @@ logging.basicConfig(
         logging.StreamHandler()
     ]
 )
-logger = logging.getLogger("Loader")
+logger = logging.getLogger("load")
 
 
 meta = MetaData()
