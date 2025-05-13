@@ -32,14 +32,12 @@ class CampgroundExtractor:
     def __init__(self, enable_kafka: bool = True, enable_address: bool = True):
         geocfg = cfg.geocoder
 
-        # Nominatim client
         self.geolocator = Nominatim(user_agent=geocfg["user_agent"])
         self.geocode = RateLimiter(
             self.geolocator.geocode,
             min_delay_seconds=geocfg["rate_limit_seconds"]
         )
 
-        # reverse-geocode: offline first, then online (very slow, low volume)
         self.enable_address = enable_address
         self.executor = ThreadPoolExecutor(max_workers=1)
         self.reverse = RateLimiter(
@@ -49,12 +47,10 @@ class CampgroundExtractor:
             swallow_exceptions=True
         )
 
-        # API + pagination
         apicfg = cfg.api
         self.base_api = apicfg["search_result_url"]
         self.page_size = apicfg["page_size"]
 
-        # Kafka producer
         self.enable_kafka = enable_kafka
         if self.enable_kafka:
             kafkacfg = cfg.kafka
@@ -81,7 +77,6 @@ class CampgroundExtractor:
         self.producer.poll(0)
 
     def _address_str(self, lat: float, lon: float) -> Optional[str]:
-        # 1) offline lookup via reverse_geocode
         try:
             info = reverse_geocode.search([(lat, lon)])[0]
             city, state, cc = info["city"], info["state"], info["country_code"]
@@ -89,7 +84,6 @@ class CampgroundExtractor:
         except Exception:
             pass
 
-        # 2) fallback to Nominatim reverse (very slow, admitted)
         try:
             loc = self.reverse((lat, lon), exactly_one=True, addressdetails=True)
             if not isinstance(loc, Location):

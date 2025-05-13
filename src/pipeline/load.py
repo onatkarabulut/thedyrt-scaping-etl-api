@@ -32,9 +32,8 @@ logging.basicConfig(
 logger = logging.getLogger("load")
 
 engine = create_engine(DATABASE_URL, future=True)
-meta = MetaData(schema="casestudy")  # <- Şema burada tanımlandı
+meta = MetaData(schema="casestudy")
 
-# Şema yoksa oluştur (PostgreSQL özelliği)
 with engine.connect() as conn:
     conn.execute(text("CREATE SCHEMA IF NOT EXISTS casestudy"))
     conn.commit()
