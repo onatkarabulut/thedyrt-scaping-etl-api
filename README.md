@@ -1,33 +1,87 @@
-# 🏕️ The Dyrt ETL Pipeline
+# 🏕️ The Dyrt ETL & Analytics Platform
 
-A fully containerized and modular **Web Scraping → ETL → API** pipeline that collects campground data from [TheDyrt.com](https://thedyrt.com), processes and enriches it, stores it in a PostgreSQL database, and exposes it via a modern **FastAPI** backend for analytics and usage.
-
-> ⚠️ This project is still evolving. Expect updates like `dbt`, `Grafana/Prometheus`, `ELK`, and a `Streamlit` UI for rich visual exploration.
+> A fully automated data pipeline for scraping, enriching, and analyzing campground data from [TheDyrt.com](https://thedyrt.com).  
+> Powered by Kafka, PostgreSQL, FastAPI, and a custom SQL-driven analytics layer.
 
 ---
 
-## 📐 Architecture
+## 🧠 Architecture
 
 ```mermaid
-graph TD;
-    Scraper[🔍 Web Scraper]
-    KafkaRaw[(📦 Kafka Topic:\nthedyrt-raw)]
-    Transformer[🧠 Transformer]
-    KafkaEnriched[(📦 Kafka Topic:\nthedyrt-enriched)]
-    Loader[💾 Loader]
-    PostgreSQL[(🛢️ PostgreSQL\nschema: casestudy)]
-    API[🚀 FastAPI Backend]
-    Views[📊 SQL Views & Analytics]
+graph TD
+    Scraper[Web Scraper] --> KafkaRaw[Kafka Topic: thedyrt-raw]
+    KafkaRaw --> Transformer[Transformer]
+    Transformer --> KafkaEnriched[Kafka Topic: thedyrt-enriched]
+    KafkaEnriched --> Loader[Loader (Upsert to PostgreSQL)]
+    PostgreSQL --> Views[Materialized Views / SQL Analytics]
+    FastAPI[FastAPI Backend] -->|REST APIs| Users
+    Users -->|Query Views| Views
+    Users -->|Trigger ETL| FastAPI
+```
+🧱 Tech Stack
 
-    Scraper -->|produce| KafkaRaw
-    KafkaRaw -->|consume + enrich| Transformer
-    Transformer -->|produce| KafkaEnriched
-    KafkaEnriched -->|consume + upsert| Loader
-    Loader --> PostgreSQL
-    PostgreSQL --> Views
-    Views --> API
-    API --> User[🧑 User / Dashboard / Client]
+    Web Scraping: httpx + async parsing from map-based endpoint
 
+    Kafka Topics: thedyrt-raw, thedyrt-enriched
+
+    Database: PostgreSQL (casestudy schema)
+
+    ETL Framework: Producer/Consumer modules (extract / transform / load)
+
+    API Layer: FastAPI – analytics & pipeline control
+
+    SQL Analytics: Views like top_commented_campgrounds, state_rating_summary, top_private_camps
+
+
+🚀 Getting Started
+1. Clone & Setup
+
+git clone https://github.com/yourusername/case_study.git
+cd case_study
+cp example.env .env
+
+2. Start Everything
+
+bash start-all.sh
+
+This will:
+
+    Run Docker services
+
+    Create Kafka topics
+
+    Launch FastAPI
+
+    Start all ETL modules
+📡 API Endpoints
+🔁 Pipeline Control
+| Method | Endpoint                  | Description                  |
+| ------ | ------------------------- | ---------------------------- |
+| `POST` | `/Pipeline/run-extract`   | Run extractor manually       |
+| `POST` | `/Pipeline/run-transform` | Trigger transformation       |
+| `POST` | `/Pipeline/run-load`      | Load enriched data to DB     |
+| `GET`  | `/Pipeline/status`        | Check if processes are alive |
+| `GET`  | `/Pipeline/logs/{step}`   | Retrieve log file content    |
+
+
+📊 SQL View Analytics
+| Endpoint               | Description                      |
+| ---------------------- | -------------------------------- |
+| `/Views/top-commented` | Top 10 most reviewed campgrounds |
+| `/Views/state-summary` | Avg price, rating per state      |
+| `/Views/top-private`   | Best-performing private camps    |
+
+
+🔎 SQL Query APIs
+| Endpoint                             | Description                       |
+| ------------------------------------ | --------------------------------- |
+| `/DB/campgrounds?state=AL&name=lake` | Filter by state/name              |
+| `/DB/campgrounds/top10-states`       | Highest campground density        |
+| `/DB/campgrounds/avg-price-by-state` | Price insights per state          |
+| `/DB/campgrounds/by-state/{state}`   | Detailed campgrounds in one state |
+
+
+---
 
 <!-- THIS PROJECT IS NOT COMPLETED YET -->
 # Web-Scrape Case Study
