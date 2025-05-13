@@ -1,7 +1,0 @@
-[2025-05-13 02:40:58,008] {processor.py:153} INFO - Started process (PID=509) to work on /opt/airflow/dags/etl_run.py
-[2025-05-13 02:40:58,008] {processor.py:641} INFO - Processing file /opt/airflow/dags/etl_run.py for tasks to queue
-[2025-05-13 02:40:58,008] {logging_mixin.py:115} INFO - [2025-05-13 02:40:58,008] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/etl_run.py
-[2025-05-13 02:40:58,016] {processor.py:651} INFO - DAG(s) dict_keys(['fastapi_health_check']) retrieved from /opt/airflow/dags/etl_run.py
-[2025-05-13 02:40:58,027] {logging_mixin.py:115} INFO - [2025-05-13 02:40:58,027] {dag.py:2371} INFO - Sync 1 DAGs
-[2025-05-13 02:40:58,039] {logging_mixin.py:115} INFO - [2025-05-13 02:40:58,039] {dag.py:2919} INFO - Setting next_dagrun for fastapi_health_check to 2025-05-13T02:00:00+00:00, run_after=2025-05-13T03:00:00+00:00
-[2025-05-13 02:40:58,051] {processor.py:161} INFO - Processing /opt/airflow/dags/etl_run.py took 0.046 seconds

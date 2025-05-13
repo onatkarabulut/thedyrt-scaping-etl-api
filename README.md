@@ -1,3 +1,34 @@
+# 🏕️ The Dyrt ETL Pipeline
+
+A fully containerized and modular **Web Scraping → ETL → API** pipeline that collects campground data from [TheDyrt.com](https://thedyrt.com), processes and enriches it, stores it in a PostgreSQL database, and exposes it via a modern **FastAPI** backend for analytics and usage.
+
+> ⚠️ This project is still evolving. Expect updates like `dbt`, `Grafana/Prometheus`, `ELK`, and a `Streamlit` UI for rich visual exploration.
+
+---
+
+## 📐 Architecture
+
+```mermaid
+graph TD;
+    Scraper[🔍 Web Scraper]
+    KafkaRaw[(📦 Kafka Topic:\nthedyrt-raw)]
+    Transformer[🧠 Transformer]
+    KafkaEnriched[(📦 Kafka Topic:\nthedyrt-enriched)]
+    Loader[💾 Loader]
+    PostgreSQL[(🛢️ PostgreSQL\nschema: casestudy)]
+    API[🚀 FastAPI Backend]
+    Views[📊 SQL Views & Analytics]
+
+    Scraper -->|produce| KafkaRaw
+    KafkaRaw -->|consume + enrich| Transformer
+    Transformer -->|produce| KafkaEnriched
+    KafkaEnriched -->|consume + upsert| Loader
+    Loader --> PostgreSQL
+    PostgreSQL --> Views
+    Views --> API
+    API --> User[🧑 User / Dashboard / Client]
+
+
 <!-- THIS PROJECT IS NOT COMPLETED YET -->
 # Web-Scrape Case Study
 

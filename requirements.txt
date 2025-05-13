@@ -153,4 +153,5 @@ xz=5.6.4=h5eee18b_1
 zipp=3.21.0=pypi_0
 zlib=1.2.13=h5eee18b_1
 psycopg2
-reverse_geocode
+reverse-geocode
+geopy

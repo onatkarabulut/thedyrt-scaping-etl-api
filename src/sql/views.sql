@@ -1,21 +1,30 @@
-CREATE VIEW raw_counts AS
+CREATE OR REPLACE VIEW casestudy.top_commented_campgrounds AS
 SELECT
-  date_trunc('hour', received_at) AS hour,
-  COUNT(*) AS total
-FROM staging.raw_campgrounds
-GROUP BY 1;
+    name,
+    reviews_count,
+    rating,
+    split_part(address, ',', 2) AS state
+FROM casestudy.campgrounds
+ORDER BY reviews_count DESC
+LIMIT 10;
 
-CREATE VIEW enriched_counts AS
+CREATE OR REPLACE VIEW casestudy.state_rating_summary AS
 SELECT
-  date_trunc('hour', enriched_at) AS hour,
-  COUNT(*) AS total
-FROM staging.enriched_campgrounds
-GROUP BY 1;
+    split_part(address, ',', 2) AS state,
+    COUNT(*) AS campground_count,
+    AVG(rating) AS average_rating,
+    AVG(price_low) AS avg_price_low,
+    AVG(price_high) AS avg_price_high
+FROM casestudy.campgrounds
+GROUP BY state
+ORDER BY average_rating DESC;
 
-CREATE VIEW load_stats AS
+CREATE OR REPLACE VIEW casestudy.top_private_camps AS
 SELECT
-  date_trunc('day', loaded_at) AS day,
-  COUNT(*) AS total_loaded,
-  AVG(load_duration) AS avg_time_secs
-FROM core.load_history
-GROUP BY 1;
+    name,
+    operator,
+    rating,
+    reviews_count
+FROM casestudy.campgrounds
+WHERE operator = 'Private' AND reviews_count > 10
+ORDER BY reviews_count DESC;

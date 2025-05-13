@@ -4,27 +4,7 @@ import requests
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 
-# ---------------------------------------------------------------------------
-# DAG: fastapi_health_check
-# Description: Curl the FastAPI instance that *lives on the HOST machine*
-#              (outside the docker‑compose stack) once every hour.
-#
-# Docker‑for‑Linux not exposing the special DNS name `host.docker.internal` by
-# default is the usual pain‑point.  Two pragmatic work‑arounds are baked‑in:
-#   1.  If you added
-#         extra_hosts:
-#           - "host.docker.internal:host-gateway"
-#       to the Airflow services, then the hostname *does* resolve – keep using
-#       it.
-#   2.  If you did **not** add the line above, the container can still reach the
-#       host via the default bridge‑gateway IP **172.17.0.1**.
-#
-# You can therefore steer the task with the optional environment variable
-# ``FASTAPI_HOST``.  When unset we try `host.docker.internal` *first* and fall
-# back to `172.17.0.1`, so nothing else has to change on your side.
-# ---------------------------------------------------------------------------
 
-# Default arguments for retry behaviour
 default_args = {
     "owner": "airflow",
     "depends_on_past": False,
@@ -34,25 +14,18 @@ default_args = {
 
 
 def _detect_host() -> str:
-    """Figure‑out which host/IP we should talk to.
 
-    Priority:
-      1. FASTAPI_HOST   → user override
-      2. host.docker.internal (works on Docker Desktop or when extra_hosts added)
-      3. 172.17.0.1     → default bridge‑gateway on Linux
-    """
 
     override = os.getenv("FASTAPI_HOST")
     if override:
         return override
 
-    # Quick connectivity probe – try the nice hostname first
     test_url = "http://host.docker.internal:8000/health"
     try:
         requests.get(test_url, timeout=2)
         return "host.docker.internal"
-    except Exception:
-        return "172.17.0.1"  # last resort on plain Docker‑for‑Linux
+    except Exception as e:
+        return e
 
 
 def check_fastapi_health() -> None:
@@ -67,7 +40,6 @@ def check_fastapi_health() -> None:
         response.raise_for_status()
         print("FastAPI health OK →", response.text)
     except Exception as exc:
-        # Raise a hard error so the task is marked as failed/retry
         raise RuntimeError(f"Failed to reach FastAPI at {url}: {exc}") from exc
 
 
@@ -86,4 +58,5 @@ with DAG(
         python_callable=check_fastapi_health,
     )
 
-    check_fastapi  # single‑task DAG
+    check_fastapi
+
