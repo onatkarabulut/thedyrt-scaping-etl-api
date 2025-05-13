@@ -16,8 +16,16 @@ from ..configs.config import Config
 
 cfg = Config()
 log_level = getattr(logging, cfg.logging_level.upper(), logging.INFO)
-logging.basicConfig(level=log_level, format="%(asctime)s [%(levelname)s] %(message)s")
-logger = logging.getLogger("Loader")
+log_file = "logs/kafka_logs/extract.log"
+logging.basicConfig(
+    level=log_level,
+    format="%(asctime)s [%(levelname)s] %(message)s",
+    handlers=[
+        logging.FileHandler(log_file),
+        logging.StreamHandler()
+    ]
+)
+logger = logging.getLogger("Extract")
 
 
 class CampgroundExtractor:

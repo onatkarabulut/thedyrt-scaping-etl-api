@@ -1,0 +1,410 @@
+[2025-05-13 00:00:24,926] {processor.py:153} INFO - Started process (PID=230) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:00:24,926] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-13 00:00:24,927] {logging_mixin.py:115} INFO - [2025-05-13 00:00:24,927] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:00:24,933] {logging_mixin.py:115} INFO - [2025-05-13 00:00:24,933] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 6, in <module>
+    dag_path = Path(__file__).parent.absolute()
+NameError: name 'Path' is not defined
+[2025-05-13 00:00:24,933] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:00:24,954] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.030 seconds
+[2025-05-13 00:00:55,106] {processor.py:153} INFO - Started process (PID=236) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:00:55,107] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-13 00:00:55,107] {logging_mixin.py:115} INFO - [2025-05-13 00:00:55,107] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:00:55,110] {logging_mixin.py:115} INFO - [2025-05-13 00:00:55,109] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 6, in <module>
+    dag_path = Path(__file__).parent.absolute()
+NameError: name 'Path' is not defined
+[2025-05-13 00:00:55,110] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:00:55,125] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.020 seconds
+[2025-05-13 00:01:25,298] {processor.py:153} INFO - Started process (PID=241) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:01:25,298] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-13 00:01:25,299] {logging_mixin.py:115} INFO - [2025-05-13 00:01:25,299] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:01:25,304] {logging_mixin.py:115} INFO - [2025-05-13 00:01:25,304] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 6, in <module>
+    dag_path = Path(__file__).parent.absolute()
+NameError: name 'Path' is not defined
+[2025-05-13 00:01:25,305] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:01:25,322] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.027 seconds
+[2025-05-13 00:01:30,337] {processor.py:153} INFO - Started process (PID=246) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:01:30,346] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-13 00:01:30,347] {logging_mixin.py:115} INFO - [2025-05-13 00:01:30,347] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:01:30,357] {logging_mixin.py:115} INFO - [2025-05-13 00:01:30,357] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 14, in <module>
+    from src.pipeline.extract import main as extract_main
+  File "/opt/airflow/src/src/pipeline/extract.py", line 7, in <module>
+    import reverse_geocode
+ModuleNotFoundError: No module named 'reverse_geocode'
+[2025-05-13 00:01:30,357] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:01:30,375] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.041 seconds
+[2025-05-13 00:01:32,366] {processor.py:153} INFO - Started process (PID=251) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:01:32,367] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-13 00:01:32,367] {logging_mixin.py:115} INFO - [2025-05-13 00:01:32,367] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:01:32,372] {logging_mixin.py:115} INFO - [2025-05-13 00:01:32,372] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 14, in <module>
+    from src.pipeline.extract import main as extract_main
+  File "/opt/airflow/src/src/pipeline/extract.py", line 7, in <module>
+    import reverse_geocode
+ModuleNotFoundError: No module named 'reverse_geocode'
+[2025-05-13 00:01:32,373] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:01:32,386] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.024 seconds
+[2025-05-13 00:02:02,580] {processor.py:153} INFO - Started process (PID=256) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:02:02,587] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-13 00:02:02,588] {logging_mixin.py:115} INFO - [2025-05-13 00:02:02,587] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:02:02,594] {logging_mixin.py:115} INFO - [2025-05-13 00:02:02,594] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 14, in <module>
+    from src.pipeline.extract import main as extract_main
+  File "/opt/airflow/src/src/pipeline/extract.py", line 7, in <module>
+    import reverse_geocode
+ModuleNotFoundError: No module named 'reverse_geocode'
+[2025-05-13 00:02:02,595] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:02:02,612] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.034 seconds
+[2025-05-13 00:02:32,793] {processor.py:153} INFO - Started process (PID=261) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:02:32,800] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-13 00:02:32,800] {logging_mixin.py:115} INFO - [2025-05-13 00:02:32,800] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:02:32,806] {logging_mixin.py:115} INFO - [2025-05-13 00:02:32,805] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 14, in <module>
+    from src.pipeline.extract import main as extract_main
+  File "/opt/airflow/src/src/pipeline/extract.py", line 7, in <module>
+    import reverse_geocode
+ModuleNotFoundError: No module named 'reverse_geocode'
+[2025-05-13 00:02:32,806] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:02:32,824] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.034 seconds
+[2025-05-13 00:03:02,977] {processor.py:153} INFO - Started process (PID=266) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:03:02,984] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-13 00:03:02,984] {logging_mixin.py:115} INFO - [2025-05-13 00:03:02,984] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:03:02,988] {logging_mixin.py:115} INFO - [2025-05-13 00:03:02,988] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 14, in <module>
+    from src.pipeline.extract import main as extract_main
+  File "/opt/airflow/src/src/pipeline/extract.py", line 7, in <module>
+    import reverse_geocode
+ModuleNotFoundError: No module named 'reverse_geocode'
+[2025-05-13 00:03:02,988] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:03:03,005] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.030 seconds
+[2025-05-13 00:03:33,175] {processor.py:153} INFO - Started process (PID=271) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:03:33,182] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-13 00:03:33,183] {logging_mixin.py:115} INFO - [2025-05-13 00:03:33,183] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:03:33,189] {logging_mixin.py:115} INFO - [2025-05-13 00:03:33,188] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 14, in <module>
+    from src.pipeline.extract import main as extract_main
+  File "/opt/airflow/src/src/pipeline/extract.py", line 7, in <module>
+    import reverse_geocode
+ModuleNotFoundError: No module named 'reverse_geocode'
+[2025-05-13 00:03:33,190] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:03:33,218] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.045 seconds
+[2025-05-13 00:04:03,351] {processor.py:153} INFO - Started process (PID=282) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:04:03,359] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-13 00:04:03,359] {logging_mixin.py:115} INFO - [2025-05-13 00:04:03,359] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:04:03,365] {logging_mixin.py:115} INFO - [2025-05-13 00:04:03,364] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 14, in <module>
+    from src.pipeline.extract import main as extract_main
+  File "/opt/airflow/src/src/pipeline/extract.py", line 7, in <module>
+    import reverse_geocode
+ModuleNotFoundError: No module named 'reverse_geocode'
+[2025-05-13 00:04:03,365] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:04:03,384] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.036 seconds
+[2025-05-13 00:04:33,540] {processor.py:153} INFO - Started process (PID=300) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:04:33,541] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-13 00:04:33,541] {logging_mixin.py:115} INFO - [2025-05-13 00:04:33,541] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:04:33,544] {logging_mixin.py:115} INFO - [2025-05-13 00:04:33,544] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 14, in <module>
+    from src.pipeline.extract import main as extract_main
+  File "/opt/airflow/src/src/pipeline/extract.py", line 7, in <module>
+    import reverse_geocode
+ModuleNotFoundError: No module named 'reverse_geocode'
+[2025-05-13 00:04:33,544] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:04:33,558] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.019 seconds
+[2025-05-13 00:05:02,711] {processor.py:153} INFO - Started process (PID=310) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:05:02,718] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-13 00:05:02,719] {logging_mixin.py:115} INFO - [2025-05-13 00:05:02,719] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:05:02,726] {logging_mixin.py:115} INFO - [2025-05-13 00:05:02,726] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 14, in <module>
+    from src.pipeline.extract import main as extract_main
+  File "/opt/airflow/src/src/pipeline/extract.py", line 7, in <module>
+    import reverse_geocode
+ModuleNotFoundError: No module named 'reverse_geocode'
+[2025-05-13 00:05:02,727] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:05:02,756] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.049 seconds
+[2025-05-13 00:05:29,909] {processor.py:153} INFO - Started process (PID=230) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:05:29,909] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-13 00:05:29,910] {logging_mixin.py:115} INFO - [2025-05-13 00:05:29,910] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:05:29,943] {logging_mixin.py:115} INFO - [2025-05-13 00:05:29,942] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 14, in <module>
+    from src.pipeline.extract import main as extract_main
+  File "/opt/airflow/src/src/pipeline/extract.py", line 9, in <module>
+    from confluent_kafka import Producer
+ModuleNotFoundError: No module named 'confluent_kafka'
+[2025-05-13 00:05:29,943] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:05:29,953] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.045 seconds
+[2025-05-13 00:06:00,101] {processor.py:153} INFO - Started process (PID=236) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:06:00,102] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-13 00:06:00,102] {logging_mixin.py:115} INFO - [2025-05-13 00:06:00,102] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:06:00,134] {logging_mixin.py:115} INFO - [2025-05-13 00:06:00,134] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 14, in <module>
+    from src.pipeline.extract import main as extract_main
+  File "/opt/airflow/src/src/pipeline/extract.py", line 9, in <module>
+    from confluent_kafka import Producer
+ModuleNotFoundError: No module named 'confluent_kafka'
+[2025-05-13 00:06:00,134] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:06:00,144] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.046 seconds
+[2025-05-13 00:06:30,294] {processor.py:153} INFO - Started process (PID=241) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:06:30,294] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-13 00:06:30,295] {logging_mixin.py:115} INFO - [2025-05-13 00:06:30,295] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:06:30,329] {logging_mixin.py:115} INFO - [2025-05-13 00:06:30,328] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 14, in <module>
+    from src.pipeline.extract import main as extract_main
+  File "/opt/airflow/src/src/pipeline/extract.py", line 9, in <module>
+    from confluent_kafka import Producer
+ModuleNotFoundError: No module named 'confluent_kafka'
+[2025-05-13 00:06:30,329] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:06:30,340] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.050 seconds
+[2025-05-13 00:07:00,477] {processor.py:153} INFO - Started process (PID=252) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:07:00,484] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-13 00:07:00,485] {logging_mixin.py:115} INFO - [2025-05-13 00:07:00,485] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:07:00,522] {logging_mixin.py:115} INFO - [2025-05-13 00:07:00,521] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 14, in <module>
+    from src.pipeline.extract import main as extract_main
+  File "/opt/airflow/src/src/pipeline/extract.py", line 9, in <module>
+    from confluent_kafka import Producer
+ModuleNotFoundError: No module named 'confluent_kafka'
+[2025-05-13 00:07:00,522] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:07:00,535] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.063 seconds
+[2025-05-13 00:07:30,662] {processor.py:153} INFO - Started process (PID=257) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:07:30,669] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-13 00:07:30,670] {logging_mixin.py:115} INFO - [2025-05-13 00:07:30,669] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:07:30,704] {logging_mixin.py:115} INFO - [2025-05-13 00:07:30,704] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 14, in <module>
+    from src.pipeline.extract import main as extract_main
+  File "/opt/airflow/src/src/pipeline/extract.py", line 9, in <module>
+    from confluent_kafka import Producer
+ModuleNotFoundError: No module named 'confluent_kafka'
+[2025-05-13 00:07:30,704] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:07:30,719] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.059 seconds
+[2025-05-13 00:08:00,851] {processor.py:153} INFO - Started process (PID=262) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:08:00,859] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-13 00:08:00,860] {logging_mixin.py:115} INFO - [2025-05-13 00:08:00,860] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:08:00,898] {logging_mixin.py:115} INFO - [2025-05-13 00:08:00,897] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 14, in <module>
+    from src.pipeline.extract import main as extract_main
+  File "/opt/airflow/src/src/pipeline/extract.py", line 9, in <module>
+    from confluent_kafka import Producer
+ModuleNotFoundError: No module named 'confluent_kafka'
+[2025-05-13 00:08:00,898] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:08:00,910] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.062 seconds
+[2025-05-13 00:08:31,037] {processor.py:153} INFO - Started process (PID=267) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:08:31,037] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-13 00:08:31,038] {logging_mixin.py:115} INFO - [2025-05-13 00:08:31,038] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:08:31,073] {logging_mixin.py:115} INFO - [2025-05-13 00:08:31,073] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 14, in <module>
+    from src.pipeline.extract import main as extract_main
+  File "/opt/airflow/src/src/pipeline/extract.py", line 9, in <module>
+    from confluent_kafka import Producer
+ModuleNotFoundError: No module named 'confluent_kafka'
+[2025-05-13 00:08:31,073] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:08:31,086] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.052 seconds
+[2025-05-13 00:09:01,208] {processor.py:153} INFO - Started process (PID=272) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:09:01,215] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-13 00:09:01,216] {logging_mixin.py:115} INFO - [2025-05-13 00:09:01,216] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:09:01,250] {logging_mixin.py:115} INFO - [2025-05-13 00:09:01,250] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 14, in <module>
+    from src.pipeline.extract import main as extract_main
+  File "/opt/airflow/src/src/pipeline/extract.py", line 9, in <module>
+    from confluent_kafka import Producer
+ModuleNotFoundError: No module named 'confluent_kafka'
+[2025-05-13 00:09:01,251] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:09:01,263] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.057 seconds
+[2025-05-13 00:09:31,390] {processor.py:153} INFO - Started process (PID=277) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:09:31,397] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-13 00:09:31,398] {logging_mixin.py:115} INFO - [2025-05-13 00:09:31,398] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:09:31,434] {logging_mixin.py:115} INFO - [2025-05-13 00:09:31,433] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 14, in <module>
+    from src.pipeline.extract import main as extract_main
+  File "/opt/airflow/src/src/pipeline/extract.py", line 9, in <module>
+    from confluent_kafka import Producer
+ModuleNotFoundError: No module named 'confluent_kafka'
+[2025-05-13 00:09:31,434] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:09:31,448] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.061 seconds
+[2025-05-13 00:10:01,587] {processor.py:153} INFO - Started process (PID=282) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:10:01,588] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-13 00:10:01,588] {logging_mixin.py:115} INFO - [2025-05-13 00:10:01,588] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:10:01,620] {logging_mixin.py:115} INFO - [2025-05-13 00:10:01,620] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 14, in <module>
+    from src.pipeline.extract import main as extract_main
+  File "/opt/airflow/src/src/pipeline/extract.py", line 9, in <module>
+    from confluent_kafka import Producer
+ModuleNotFoundError: No module named 'confluent_kafka'
+[2025-05-13 00:10:01,621] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:10:01,631] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.046 seconds
+[2025-05-13 00:10:31,783] {processor.py:153} INFO - Started process (PID=287) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:10:31,791] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-13 00:10:31,791] {logging_mixin.py:115} INFO - [2025-05-13 00:10:31,791] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:10:31,825] {logging_mixin.py:115} INFO - [2025-05-13 00:10:31,825] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 14, in <module>
+    from src.pipeline.extract import main as extract_main
+  File "/opt/airflow/src/src/pipeline/extract.py", line 9, in <module>
+    from confluent_kafka import Producer
+ModuleNotFoundError: No module named 'confluent_kafka'
+[2025-05-13 00:10:31,826] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:10:31,839] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.057 seconds
+[2025-05-13 00:11:01,977] {processor.py:153} INFO - Started process (PID=292) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:11:01,984] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-13 00:11:01,985] {logging_mixin.py:115} INFO - [2025-05-13 00:11:01,985] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:11:02,026] {logging_mixin.py:115} INFO - [2025-05-13 00:11:02,026] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 14, in <module>
+    from src.pipeline.extract import main as extract_main
+  File "/opt/airflow/src/src/pipeline/extract.py", line 9, in <module>
+    from confluent_kafka import Producer
+ModuleNotFoundError: No module named 'confluent_kafka'
+[2025-05-13 00:11:02,027] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:11:02,040] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.067 seconds
+[2025-05-13 00:11:32,176] {processor.py:153} INFO - Started process (PID=297) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:11:32,177] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-13 00:11:32,177] {logging_mixin.py:115} INFO - [2025-05-13 00:11:32,177] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:11:32,207] {logging_mixin.py:115} INFO - [2025-05-13 00:11:32,207] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 14, in <module>
+    from src.pipeline.extract import main as extract_main
+  File "/opt/airflow/src/src/pipeline/extract.py", line 9, in <module>
+    from confluent_kafka import Producer
+ModuleNotFoundError: No module named 'confluent_kafka'
+[2025-05-13 00:11:32,207] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:11:32,216] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.041 seconds
+[2025-05-13 00:12:02,359] {processor.py:153} INFO - Started process (PID=302) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:12:02,367] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-13 00:12:02,368] {logging_mixin.py:115} INFO - [2025-05-13 00:12:02,368] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:12:02,403] {logging_mixin.py:115} INFO - [2025-05-13 00:12:02,403] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 14, in <module>
+    from src.pipeline.extract import main as extract_main
+  File "/opt/airflow/src/src/pipeline/extract.py", line 9, in <module>
+    from confluent_kafka import Producer
+ModuleNotFoundError: No module named 'confluent_kafka'
+[2025-05-13 00:12:02,404] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-13 00:12:02,417] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.062 seconds

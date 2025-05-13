@@ -1,0 +1,24 @@
+[2025-05-12 23:55:24,999] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: api_pipeline_integration.call_api_endpoint manual__2025-05-12T23:55:24.756343+00:00 [queued]>
+[2025-05-12 23:55:25,005] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: api_pipeline_integration.call_api_endpoint manual__2025-05-12T23:55:24.756343+00:00 [queued]>
+[2025-05-12 23:55:25,005] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2025-05-12 23:55:25,005] {taskinstance.py:1357} INFO - Starting attempt 1 of 4
+[2025-05-12 23:55:25,005] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2025-05-12 23:55:25,013] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): call_api_endpoint> on 2025-05-12 23:55:24.756343+00:00
+[2025-05-12 23:55:25,017] {standard_task_runner.py:52} INFO - Started process 425 to run task
+[2025-05-12 23:55:25,019] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'api_pipeline_integration', 'call_api_endpoint', 'manual__2025-05-12T23:55:24.756343+00:00', '--job-id', '8', '--raw', '--subdir', 'DAGS_FOLDER/extract_scheduler.py', '--cfg-path', '/tmp/tmp91z96vzu', '--error-file', '/tmp/tmpwja5mfvs']
+[2025-05-12 23:55:25,020] {standard_task_runner.py:80} INFO - Job 8: Subtask call_api_endpoint
+[2025-05-12 23:55:25,061] {task_command.py:369} INFO - Running <TaskInstance: api_pipeline_integration.call_api_endpoint manual__2025-05-12T23:55:24.756343+00:00 [running]> on host f4c955ecac73
+[2025-05-12 23:55:25,114] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=api_pipeline_integration
+AIRFLOW_CTX_TASK_ID=call_api_endpoint
+AIRFLOW_CTX_EXECUTION_DATE=2025-05-12T23:55:24.756343+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2025-05-12T23:55:24.756343+00:00
+[2025-05-12 23:55:25,115] {extract_scheduler.py:19} INFO - Current working directory: /opt/***
+[2025-05-12 23:55:25,115] {python.py:173} INFO - Done. Returned value was: None
+[2025-05-12 23:55:25,126] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=api_pipeline_integration, task_id=call_api_endpoint, execution_date=20250512T235524, start_date=20250512T235524, end_date=20250512T235525
+[2025-05-12 23:55:25,151] {local_task_job.py:156} INFO - Task exited with return code 0
+[2025-05-12 23:55:25,179] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -10,6 +10,7 @@ x-common:
     - ../../logs/airflow_logs:/opt/airflow/logs
     - ./plugins:/opt/airflow/plugins
     - /var/run/docker.sock:/var/run/docker.sock
+    - ../../:/opt/airflow/src
 x-depends-on:
   &depends-on
   depends_on:
@@ -37,6 +38,10 @@ services:
     restart: on-failure
     ports:
       - "8793:8793"
+    environment:
+      - PYTHONPATH=/opt/airflow:/opt/airflow/dags:/opt/airflow/src
+
+      
   webserver:
     <<: *common
     <<: *depends-on
@@ -50,6 +55,9 @@ services:
       interval: 30s
       timeout: 30s
       retries: 5
+    environment:
+      - PYTHONPATH=/opt/airflow:/opt/airflow/dags:/opt/airflow/src
+
   airflow-init:
     <<: *common
     container_name: airflow-init

@@ -1,6 +1,6 @@
 # src/api/main.py
 from fastapi import FastAPI
-from src.api.services.etl import extract, transform, load
+from src.api.services import etl
 
 app = FastAPI(
     title="Campground ETL API",
@@ -8,6 +8,4 @@ app = FastAPI(
     version="1.0.0",
 )
 
-app.include_router(extract.router, prefix="/extract", tags=["extract"])
-app.include_router(transform.router, prefix="/transform", tags=["transform"])
-app.include_router(load.router, prefix="/load", tags=["load"])
+app.include_router(etl.router, prefix="/Pipeline", tags=["RUN"])

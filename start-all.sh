@@ -31,3 +31,5 @@ python3 -m src.pipeline.load &> logs/kafka_logs/load.log &
 
 echo "✅  All kafka pipeline started. Logs are under logs/kafka_logs/*.log"
 
+docker exec -it airflow-scheduler bash
+pip3 install reverse-geocode

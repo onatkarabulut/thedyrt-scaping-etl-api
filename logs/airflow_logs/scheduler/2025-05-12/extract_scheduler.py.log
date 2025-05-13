@@ -1,0 +1,1479 @@
+[2025-05-12 22:56:05,863] {processor.py:153} INFO - Started process (PID=229) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 22:56:05,863] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 22:56:05,863] {logging_mixin.py:115} INFO - [2025-05-12 22:56:05,863] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 22:56:05,869] {logging_mixin.py:115} INFO - [2025-05-12 22:56:05,869] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 4, in <module>
+    from src.pipeline.extract import main as extract_main
+ModuleNotFoundError: No module named 'src'
+[2025-05-12 22:56:05,869] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 22:56:05,880] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.019 seconds
+[2025-05-12 22:56:36,056] {processor.py:153} INFO - Started process (PID=236) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 22:56:36,064] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 22:56:36,065] {logging_mixin.py:115} INFO - [2025-05-12 22:56:36,064] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 22:56:36,070] {logging_mixin.py:115} INFO - [2025-05-12 22:56:36,070] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 4, in <module>
+    from src.pipeline.extract import main as extract_main
+ModuleNotFoundError: No module named 'src'
+[2025-05-12 22:56:36,071] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 22:56:36,086] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.034 seconds
+[2025-05-12 22:57:07,389] {processor.py:153} INFO - Started process (PID=230) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 22:57:07,390] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 22:57:07,390] {logging_mixin.py:115} INFO - [2025-05-12 22:57:07,390] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 22:57:07,393] {logging_mixin.py:115} INFO - [2025-05-12 22:57:07,393] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 4, in <module>
+    from src.pipeline.extract import main as extract_main
+ModuleNotFoundError: No module named 'src'
+[2025-05-12 22:57:07,393] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 22:57:07,405] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.017 seconds
+[2025-05-12 22:57:37,579] {processor.py:153} INFO - Started process (PID=236) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 22:57:37,579] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 22:57:37,579] {logging_mixin.py:115} INFO - [2025-05-12 22:57:37,579] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 22:57:37,584] {logging_mixin.py:115} INFO - [2025-05-12 22:57:37,584] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 4, in <module>
+    from src.pipeline.extract import main as extract_main
+ModuleNotFoundError: No module named 'src'
+[2025-05-12 22:57:37,584] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 22:57:37,606] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.031 seconds
+[2025-05-12 22:58:07,781] {processor.py:153} INFO - Started process (PID=241) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 22:58:07,781] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 22:58:07,781] {logging_mixin.py:115} INFO - [2025-05-12 22:58:07,781] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 22:58:07,785] {logging_mixin.py:115} INFO - [2025-05-12 22:58:07,784] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 4, in <module>
+    from src.pipeline.extract import main as extract_main
+ModuleNotFoundError: No module named 'src'
+[2025-05-12 22:58:07,785] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 22:58:07,798] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.020 seconds
+[2025-05-12 22:58:37,171] {processor.py:153} INFO - Started process (PID=230) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 22:58:37,178] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 22:58:37,178] {logging_mixin.py:115} INFO - [2025-05-12 22:58:37,178] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 22:58:37,182] {logging_mixin.py:115} INFO - [2025-05-12 22:58:37,181] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 4, in <module>
+    from src.pipeline.extract import main as extract_main
+ModuleNotFoundError: No module named 'src'
+[2025-05-12 22:58:37,182] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 22:58:37,195] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.026 seconds
+[2025-05-12 22:59:07,364] {processor.py:153} INFO - Started process (PID=236) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 22:59:07,372] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 22:59:07,373] {logging_mixin.py:115} INFO - [2025-05-12 22:59:07,373] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 22:59:07,381] {logging_mixin.py:115} INFO - [2025-05-12 22:59:07,380] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 4, in <module>
+    from src.pipeline.extract import main as extract_main
+ModuleNotFoundError: No module named 'src'
+[2025-05-12 22:59:07,381] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 22:59:07,395] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.033 seconds
+[2025-05-12 22:59:37,543] {processor.py:153} INFO - Started process (PID=241) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 22:59:37,544] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 22:59:37,545] {logging_mixin.py:115} INFO - [2025-05-12 22:59:37,545] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 22:59:37,551] {logging_mixin.py:115} INFO - [2025-05-12 22:59:37,550] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 4, in <module>
+    from src.pipeline.extract import main as extract_main
+ModuleNotFoundError: No module named 'src'
+[2025-05-12 22:59:37,551] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 22:59:37,574] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.033 seconds
+[2025-05-12 23:00:07,737] {processor.py:153} INFO - Started process (PID=246) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:00:07,745] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:00:07,746] {logging_mixin.py:115} INFO - [2025-05-12 23:00:07,746] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:00:07,752] {logging_mixin.py:115} INFO - [2025-05-12 23:00:07,752] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 4, in <module>
+    from src.pipeline.extract import main as extract_main
+ModuleNotFoundError: No module named 'src'
+[2025-05-12 23:00:07,752] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:00:07,771] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.038 seconds
+[2025-05-12 23:00:37,931] {processor.py:153} INFO - Started process (PID=251) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:00:37,939] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:00:37,940] {logging_mixin.py:115} INFO - [2025-05-12 23:00:37,940] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:00:37,947] {logging_mixin.py:115} INFO - [2025-05-12 23:00:37,947] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 4, in <module>
+    from src.pipeline.extract import main as extract_main
+ModuleNotFoundError: No module named 'src'
+[2025-05-12 23:00:37,948] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:00:37,971] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.043 seconds
+[2025-05-12 23:01:08,120] {processor.py:153} INFO - Started process (PID=256) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:01:08,128] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:01:08,130] {logging_mixin.py:115} INFO - [2025-05-12 23:01:08,129] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:01:08,136] {logging_mixin.py:115} INFO - [2025-05-12 23:01:08,136] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 4, in <module>
+    from src.pipeline.extract import main as extract_main
+ModuleNotFoundError: No module named 'src'
+[2025-05-12 23:01:08,137] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:01:08,152] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.036 seconds
+[2025-05-12 23:01:38,314] {processor.py:153} INFO - Started process (PID=261) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:01:38,321] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:01:38,322] {logging_mixin.py:115} INFO - [2025-05-12 23:01:38,321] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:01:38,326] {logging_mixin.py:115} INFO - [2025-05-12 23:01:38,326] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 4, in <module>
+    from src.pipeline.extract import main as extract_main
+ModuleNotFoundError: No module named 'src'
+[2025-05-12 23:01:38,326] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:01:38,344] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.032 seconds
+[2025-05-12 23:02:08,499] {processor.py:153} INFO - Started process (PID=266) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:02:08,506] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:02:08,507] {logging_mixin.py:115} INFO - [2025-05-12 23:02:08,507] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:02:08,514] {logging_mixin.py:115} INFO - [2025-05-12 23:02:08,513] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 4, in <module>
+    from src.pipeline.extract import main as extract_main
+ModuleNotFoundError: No module named 'src'
+[2025-05-12 23:02:08,514] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:02:08,538] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.042 seconds
+[2025-05-12 23:02:38,711] {processor.py:153} INFO - Started process (PID=271) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:02:38,718] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:02:38,719] {logging_mixin.py:115} INFO - [2025-05-12 23:02:38,719] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:02:38,725] {logging_mixin.py:115} INFO - [2025-05-12 23:02:38,725] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 4, in <module>
+    from src.pipeline.extract import main as extract_main
+ModuleNotFoundError: No module named 'src'
+[2025-05-12 23:02:38,725] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:02:38,745] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.036 seconds
+[2025-05-12 23:03:08,902] {processor.py:153} INFO - Started process (PID=276) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:03:08,910] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:03:08,910] {logging_mixin.py:115} INFO - [2025-05-12 23:03:08,910] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:03:08,913] {logging_mixin.py:115} INFO - [2025-05-12 23:03:08,912] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 4, in <module>
+    from src.pipeline.extract import main as extract_main
+ModuleNotFoundError: No module named 'src'
+[2025-05-12 23:03:08,913] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:03:08,927] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.026 seconds
+[2025-05-12 23:03:39,106] {processor.py:153} INFO - Started process (PID=281) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:03:39,113] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:03:39,114] {logging_mixin.py:115} INFO - [2025-05-12 23:03:39,114] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:03:39,122] {logging_mixin.py:115} INFO - [2025-05-12 23:03:39,121] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 4, in <module>
+    from src.pipeline.extract import main as extract_main
+ModuleNotFoundError: No module named 'src'
+[2025-05-12 23:03:39,122] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:03:39,138] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.035 seconds
+[2025-05-12 23:04:09,292] {processor.py:153} INFO - Started process (PID=286) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:04:09,300] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:04:09,301] {logging_mixin.py:115} INFO - [2025-05-12 23:04:09,301] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:04:09,308] {logging_mixin.py:115} INFO - [2025-05-12 23:04:09,308] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 4, in <module>
+    from src.pipeline.extract import main as extract_main
+ModuleNotFoundError: No module named 'src'
+[2025-05-12 23:04:09,308] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:04:09,327] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.038 seconds
+[2025-05-12 23:04:57,575] {processor.py:153} INFO - Started process (PID=229) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:04:57,578] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:04:57,578] {logging_mixin.py:115} INFO - [2025-05-12 23:04:57,578] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:04:57,589] {logging_mixin.py:115} INFO - [2025-05-12 23:04:57,588] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 4, in <module>
+    from src.pipeline.extract import main as extract_main
+ModuleNotFoundError: No module named 'src.pipeline'
+[2025-05-12 23:04:57,589] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:04:57,608] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.035 seconds
+[2025-05-12 23:05:27,764] {processor.py:153} INFO - Started process (PID=235) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:05:27,764] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:05:27,765] {logging_mixin.py:115} INFO - [2025-05-12 23:05:27,765] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:05:27,769] {logging_mixin.py:115} INFO - [2025-05-12 23:05:27,768] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 4, in <module>
+    from src.pipeline.extract import main as extract_main
+ModuleNotFoundError: No module named 'src.pipeline'
+[2025-05-12 23:05:27,769] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:05:27,783] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.021 seconds
+[2025-05-12 23:05:54,935] {processor.py:153} INFO - Started process (PID=240) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:05:54,943] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:05:54,943] {logging_mixin.py:115} INFO - [2025-05-12 23:05:54,943] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:05:54,948] {logging_mixin.py:115} INFO - [2025-05-12 23:05:54,948] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 4, in <module>
+    from src.pipeline.extract import main as extract_main
+ModuleNotFoundError: No module named 'src.pipeline'
+[2025-05-12 23:05:54,948] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:05:54,965] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.033 seconds
+[2025-05-12 23:05:57,959] {processor.py:153} INFO - Started process (PID=245) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:05:57,960] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:05:57,960] {logging_mixin.py:115} INFO - [2025-05-12 23:05:57,960] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:05:57,966] {logging_mixin.py:115} INFO - [2025-05-12 23:05:57,965] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 4, in <module>
+    from src.pipeline.extract import main as extract_main
+ModuleNotFoundError: No module named 'src.pipeline'
+[2025-05-12 23:05:57,966] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:05:57,983] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.027 seconds
+[2025-05-12 23:06:13,758] {processor.py:153} INFO - Started process (PID=230) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:06:13,765] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:06:13,765] {logging_mixin.py:115} INFO - [2025-05-12 23:06:13,765] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:06:13,768] {logging_mixin.py:115} INFO - [2025-05-12 23:06:13,768] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 4, in <module>
+    from src.pipeline.extract import main as extract_main
+ModuleNotFoundError: No module named 'src.pipeline'
+[2025-05-12 23:06:13,768] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:06:13,781] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.025 seconds
+[2025-05-12 23:06:43,947] {processor.py:153} INFO - Started process (PID=236) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:06:43,948] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:06:43,948] {logging_mixin.py:115} INFO - [2025-05-12 23:06:43,948] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:06:43,952] {logging_mixin.py:115} INFO - [2025-05-12 23:06:43,952] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 4, in <module>
+    from src.pipeline.extract import main as extract_main
+ModuleNotFoundError: No module named 'src.pipeline'
+[2025-05-12 23:06:43,953] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:06:43,969] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.024 seconds
+[2025-05-12 23:07:14,150] {processor.py:153} INFO - Started process (PID=241) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:07:14,158] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:07:14,159] {logging_mixin.py:115} INFO - [2025-05-12 23:07:14,159] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:07:14,167] {logging_mixin.py:115} INFO - [2025-05-12 23:07:14,167] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 4, in <module>
+    from src.pipeline.extract import main as extract_main
+ModuleNotFoundError: No module named 'src.pipeline'
+[2025-05-12 23:07:14,167] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:07:14,193] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.047 seconds
+[2025-05-12 23:07:44,355] {processor.py:153} INFO - Started process (PID=246) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:07:44,362] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:07:44,363] {logging_mixin.py:115} INFO - [2025-05-12 23:07:44,363] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:07:44,371] {logging_mixin.py:115} INFO - [2025-05-12 23:07:44,371] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 4, in <module>
+    from src.pipeline.extract import main as extract_main
+ModuleNotFoundError: No module named 'src.pipeline'
+[2025-05-12 23:07:44,371] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:07:44,393] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.042 seconds
+[2025-05-12 23:07:56,429] {processor.py:153} INFO - Started process (PID=251) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:07:56,429] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:07:56,429] {logging_mixin.py:115} INFO - [2025-05-12 23:07:56,429] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:07:56,432] {logging_mixin.py:115} INFO - [2025-05-12 23:07:56,432] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 4, in <module>
+    from src.pipeline.extract import main as extract_main
+ModuleNotFoundError: No module named 'src.pipeline'
+[2025-05-12 23:07:56,432] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:07:56,446] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.019 seconds
+[2025-05-12 23:08:19,582] {processor.py:153} INFO - Started process (PID=256) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:08:19,589] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:08:19,590] {logging_mixin.py:115} INFO - [2025-05-12 23:08:19,590] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:08:19,594] {logging_mixin.py:115} INFO - [2025-05-12 23:08:19,594] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 8, in <module>
+    from pipeline.extract import main as extract_main
+ModuleNotFoundError: No module named 'pipeline'
+[2025-05-12 23:08:19,594] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:08:19,614] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.034 seconds
+[2025-05-12 23:08:26,643] {processor.py:153} INFO - Started process (PID=261) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:08:26,643] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:08:26,644] {logging_mixin.py:115} INFO - [2025-05-12 23:08:26,644] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:08:26,649] {logging_mixin.py:115} INFO - [2025-05-12 23:08:26,649] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 8, in <module>
+    from pipeline.extract import main as extract_main
+ModuleNotFoundError: No module named 'pipeline'
+[2025-05-12 23:08:26,649] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:08:26,663] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.022 seconds
+[2025-05-12 23:08:56,832] {processor.py:153} INFO - Started process (PID=266) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:08:56,840] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:08:56,840] {logging_mixin.py:115} INFO - [2025-05-12 23:08:56,840] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:08:56,845] {logging_mixin.py:115} INFO - [2025-05-12 23:08:56,844] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 8, in <module>
+    from pipeline.extract import main as extract_main
+ModuleNotFoundError: No module named 'pipeline'
+[2025-05-12 23:08:56,845] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:08:56,860] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.031 seconds
+[2025-05-12 23:09:07,893] {processor.py:153} INFO - Started process (PID=271) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:09:07,901] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:09:07,901] {logging_mixin.py:115} INFO - [2025-05-12 23:09:07,901] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:09:07,906] {logging_mixin.py:115} INFO - [2025-05-12 23:09:07,905] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 8, in <module>
+    from pipeline.extract import main as extract_main
+ModuleNotFoundError: No module named 'pipeline'
+[2025-05-12 23:09:07,906] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:09:07,921] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.030 seconds
+[2025-05-12 23:09:38,096] {processor.py:153} INFO - Started process (PID=276) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:09:38,097] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:09:38,098] {logging_mixin.py:115} INFO - [2025-05-12 23:09:38,097] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:09:38,103] {logging_mixin.py:115} INFO - [2025-05-12 23:09:38,103] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 8, in <module>
+    from pipeline.extract import main as extract_main
+ModuleNotFoundError: No module named 'pipeline'
+[2025-05-12 23:09:38,103] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:09:38,117] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.024 seconds
+[2025-05-12 23:10:08,293] {processor.py:153} INFO - Started process (PID=281) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:10:08,301] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:10:08,302] {logging_mixin.py:115} INFO - [2025-05-12 23:10:08,302] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:10:08,308] {logging_mixin.py:115} INFO - [2025-05-12 23:10:08,308] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 8, in <module>
+    from pipeline.extract import main as extract_main
+ModuleNotFoundError: No module named 'pipeline'
+[2025-05-12 23:10:08,309] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:10:08,336] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.047 seconds
+[2025-05-12 23:10:19,371] {processor.py:153} INFO - Started process (PID=286) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:10:19,378] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:10:19,378] {logging_mixin.py:115} INFO - [2025-05-12 23:10:19,378] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:10:19,381] {logging_mixin.py:115} INFO - /opt/airflow
+[2025-05-12 23:10:19,382] {logging_mixin.py:115} INFO - [2025-05-12 23:10:19,382] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 28, in <module>
+    python_callable=extract_main,
+NameError: name 'extract_main' is not defined
+[2025-05-12 23:10:19,383] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:10:19,395] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.026 seconds
+[2025-05-12 23:10:49,576] {processor.py:153} INFO - Started process (PID=291) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:10:49,583] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:10:49,585] {logging_mixin.py:115} INFO - [2025-05-12 23:10:49,585] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:10:49,591] {logging_mixin.py:115} INFO - /opt/airflow
+[2025-05-12 23:10:49,594] {logging_mixin.py:115} INFO - [2025-05-12 23:10:49,593] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 28, in <module>
+    python_callable=extract_main,
+NameError: name 'extract_main' is not defined
+[2025-05-12 23:10:49,594] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:10:49,612] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.041 seconds
+[2025-05-12 23:11:02,652] {processor.py:153} INFO - Started process (PID=296) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:11:02,660] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:11:02,660] {logging_mixin.py:115} INFO - [2025-05-12 23:11:02,660] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:11:02,667] {logging_mixin.py:115} INFO - [2025-05-12 23:11:02,667] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 28, in <module>
+    python_callable=extract_main,
+NameError: name 'extract_main' is not defined
+[2025-05-12 23:11:02,667] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:11:02,685] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.036 seconds
+[2025-05-12 23:11:32,873] {processor.py:153} INFO - Started process (PID=301) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:11:32,881] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:11:32,882] {logging_mixin.py:115} INFO - [2025-05-12 23:11:32,882] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:11:32,892] {logging_mixin.py:115} INFO - [2025-05-12 23:11:32,891] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 28, in <module>
+    python_callable=extract_main,
+NameError: name 'extract_main' is not defined
+[2025-05-12 23:11:32,892] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:11:32,919] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.050 seconds
+[2025-05-12 23:12:03,063] {processor.py:153} INFO - Started process (PID=306) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:12:03,071] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:12:03,071] {logging_mixin.py:115} INFO - [2025-05-12 23:12:03,071] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:12:03,078] {logging_mixin.py:115} INFO - [2025-05-12 23:12:03,078] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 28, in <module>
+    python_callable=extract_main,
+NameError: name 'extract_main' is not defined
+[2025-05-12 23:12:03,079] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:12:03,093] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.033 seconds
+[2025-05-12 23:12:33,255] {processor.py:153} INFO - Started process (PID=311) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:12:33,262] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:12:33,263] {logging_mixin.py:115} INFO - [2025-05-12 23:12:33,263] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:12:33,272] {logging_mixin.py:115} INFO - [2025-05-12 23:12:33,271] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 28, in <module>
+    python_callable=extract_main,
+NameError: name 'extract_main' is not defined
+[2025-05-12 23:12:33,272] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:12:33,292] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.039 seconds
+[2025-05-12 23:13:03,447] {processor.py:153} INFO - Started process (PID=316) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:13:03,454] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:13:03,455] {logging_mixin.py:115} INFO - [2025-05-12 23:13:03,455] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:13:03,461] {logging_mixin.py:115} INFO - [2025-05-12 23:13:03,460] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 28, in <module>
+    python_callable=extract_main,
+NameError: name 'extract_main' is not defined
+[2025-05-12 23:13:03,461] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:13:03,476] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.032 seconds
+[2025-05-12 23:13:33,636] {processor.py:153} INFO - Started process (PID=321) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:13:33,644] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:13:33,645] {logging_mixin.py:115} INFO - [2025-05-12 23:13:33,645] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:13:33,653] {logging_mixin.py:115} INFO - [2025-05-12 23:13:33,652] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 28, in <module>
+    python_callable=extract_main,
+NameError: name 'extract_main' is not defined
+[2025-05-12 23:13:33,653] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:13:33,673] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.040 seconds
+[2025-05-12 23:14:03,822] {processor.py:153} INFO - Started process (PID=326) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:14:03,830] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:14:03,830] {logging_mixin.py:115} INFO - [2025-05-12 23:14:03,830] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:14:03,836] {logging_mixin.py:115} INFO - [2025-05-12 23:14:03,835] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 28, in <module>
+    python_callable=extract_main,
+NameError: name 'extract_main' is not defined
+[2025-05-12 23:14:03,836] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:14:03,852] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.031 seconds
+[2025-05-12 23:14:34,019] {processor.py:153} INFO - Started process (PID=331) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:14:34,027] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:14:34,027] {logging_mixin.py:115} INFO - [2025-05-12 23:14:34,027] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:14:34,033] {logging_mixin.py:115} INFO - [2025-05-12 23:14:34,032] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 28, in <module>
+    python_callable=extract_main,
+NameError: name 'extract_main' is not defined
+[2025-05-12 23:14:34,033] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:14:34,050] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.032 seconds
+[2025-05-12 23:15:04,220] {processor.py:153} INFO - Started process (PID=336) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:15:04,228] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:15:04,229] {logging_mixin.py:115} INFO - [2025-05-12 23:15:04,229] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:15:04,240] {logging_mixin.py:115} INFO - [2025-05-12 23:15:04,240] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 28, in <module>
+    python_callable=extract_main,
+NameError: name 'extract_main' is not defined
+[2025-05-12 23:15:04,241] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:15:04,268] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.052 seconds
+[2025-05-12 23:15:34,393] {processor.py:153} INFO - Started process (PID=341) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:15:34,400] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:15:34,400] {logging_mixin.py:115} INFO - [2025-05-12 23:15:34,400] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:15:34,404] {logging_mixin.py:115} INFO - [2025-05-12 23:15:34,404] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 28, in <module>
+    python_callable=extract_main,
+NameError: name 'extract_main' is not defined
+[2025-05-12 23:15:34,405] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:15:34,418] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.027 seconds
+[2025-05-12 23:16:04,592] {processor.py:153} INFO - Started process (PID=346) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:16:04,600] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:16:04,601] {logging_mixin.py:115} INFO - [2025-05-12 23:16:04,601] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:16:04,611] {logging_mixin.py:115} INFO - [2025-05-12 23:16:04,610] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 28, in <module>
+    python_callable=extract_main,
+NameError: name 'extract_main' is not defined
+[2025-05-12 23:16:04,611] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:16:04,639] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.050 seconds
+[2025-05-12 23:16:34,787] {processor.py:153} INFO - Started process (PID=351) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:16:34,794] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:16:34,795] {logging_mixin.py:115} INFO - [2025-05-12 23:16:34,795] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:16:34,805] {logging_mixin.py:115} INFO - [2025-05-12 23:16:34,804] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 28, in <module>
+    python_callable=extract_main,
+NameError: name 'extract_main' is not defined
+[2025-05-12 23:16:34,805] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:16:34,835] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.051 seconds
+[2025-05-12 23:17:04,974] {processor.py:153} INFO - Started process (PID=356) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:17:04,974] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:17:04,974] {logging_mixin.py:115} INFO - [2025-05-12 23:17:04,974] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:17:04,978] {logging_mixin.py:115} INFO - [2025-05-12 23:17:04,978] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 28, in <module>
+    python_callable=extract_main,
+NameError: name 'extract_main' is not defined
+[2025-05-12 23:17:04,979] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:17:04,996] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.025 seconds
+[2025-05-12 23:17:35,164] {processor.py:153} INFO - Started process (PID=361) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:17:35,171] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:17:35,172] {logging_mixin.py:115} INFO - [2025-05-12 23:17:35,172] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:17:35,180] {logging_mixin.py:115} INFO - [2025-05-12 23:17:35,180] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 28, in <module>
+    python_callable=extract_main,
+NameError: name 'extract_main' is not defined
+[2025-05-12 23:17:35,180] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:17:35,195] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.034 seconds
+[2025-05-12 23:18:05,352] {processor.py:153} INFO - Started process (PID=366) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:18:05,360] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:18:05,361] {logging_mixin.py:115} INFO - [2025-05-12 23:18:05,361] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:18:05,371] {logging_mixin.py:115} INFO - [2025-05-12 23:18:05,371] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 28, in <module>
+    python_callable=extract_main,
+NameError: name 'extract_main' is not defined
+[2025-05-12 23:18:05,371] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:18:05,388] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.040 seconds
+[2025-05-12 23:18:35,536] {processor.py:153} INFO - Started process (PID=371) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:18:35,536] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:18:35,536] {logging_mixin.py:115} INFO - [2025-05-12 23:18:35,536] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:18:35,540] {logging_mixin.py:115} INFO - [2025-05-12 23:18:35,540] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 28, in <module>
+    python_callable=extract_main,
+NameError: name 'extract_main' is not defined
+[2025-05-12 23:18:35,540] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:18:35,559] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.025 seconds
+[2025-05-12 23:19:05,695] {processor.py:153} INFO - Started process (PID=376) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:19:05,695] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:19:05,695] {logging_mixin.py:115} INFO - [2025-05-12 23:19:05,695] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:19:05,700] {logging_mixin.py:115} INFO - [2025-05-12 23:19:05,699] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 28, in <module>
+    python_callable=extract_main,
+NameError: name 'extract_main' is not defined
+[2025-05-12 23:19:05,700] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:19:05,713] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.020 seconds
+[2025-05-12 23:19:35,855] {processor.py:153} INFO - Started process (PID=381) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:19:35,857] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:19:35,857] {logging_mixin.py:115} INFO - [2025-05-12 23:19:35,857] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:19:35,861] {logging_mixin.py:115} INFO - [2025-05-12 23:19:35,860] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 28, in <module>
+    python_callable=extract_main,
+NameError: name 'extract_main' is not defined
+[2025-05-12 23:19:35,861] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:19:35,876] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.022 seconds
+[2025-05-12 23:20:06,018] {processor.py:153} INFO - Started process (PID=386) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:20:06,026] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:20:06,026] {logging_mixin.py:115} INFO - [2025-05-12 23:20:06,026] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:20:06,034] {logging_mixin.py:115} INFO - [2025-05-12 23:20:06,033] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 28, in <module>
+    python_callable=extract_main,
+NameError: name 'extract_main' is not defined
+[2025-05-12 23:20:06,034] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:20:06,054] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.039 seconds
+[2025-05-12 23:20:36,223] {processor.py:153} INFO - Started process (PID=391) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:20:36,231] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:20:36,232] {logging_mixin.py:115} INFO - [2025-05-12 23:20:36,231] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:20:36,238] {logging_mixin.py:115} INFO - [2025-05-12 23:20:36,238] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 28, in <module>
+    python_callable=extract_main,
+NameError: name 'extract_main' is not defined
+[2025-05-12 23:20:36,238] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:20:36,256] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.038 seconds
+[2025-05-12 23:21:06,406] {processor.py:153} INFO - Started process (PID=396) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:21:06,414] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:21:06,415] {logging_mixin.py:115} INFO - [2025-05-12 23:21:06,415] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:21:06,422] {logging_mixin.py:115} INFO - [2025-05-12 23:21:06,422] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 28, in <module>
+    python_callable=extract_main,
+NameError: name 'extract_main' is not defined
+[2025-05-12 23:21:06,422] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:21:06,439] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.036 seconds
+[2025-05-12 23:21:36,610] {processor.py:153} INFO - Started process (PID=401) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:21:36,610] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:21:36,612] {logging_mixin.py:115} INFO - [2025-05-12 23:21:36,612] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:21:36,619] {logging_mixin.py:115} INFO - [2025-05-12 23:21:36,619] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 28, in <module>
+    python_callable=extract_main,
+NameError: name 'extract_main' is not defined
+[2025-05-12 23:21:36,620] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:21:36,638] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.032 seconds
+[2025-05-12 23:22:06,807] {processor.py:153} INFO - Started process (PID=406) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:22:06,815] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:22:06,816] {logging_mixin.py:115} INFO - [2025-05-12 23:22:06,816] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:22:06,825] {logging_mixin.py:115} INFO - [2025-05-12 23:22:06,825] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 28, in <module>
+    python_callable=extract_main,
+NameError: name 'extract_main' is not defined
+[2025-05-12 23:22:06,826] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:22:06,849] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.047 seconds
+[2025-05-12 23:22:36,976] {processor.py:153} INFO - Started process (PID=411) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:22:36,984] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:22:36,987] {logging_mixin.py:115} INFO - [2025-05-12 23:22:36,987] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:22:36,995] {logging_mixin.py:115} INFO - [2025-05-12 23:22:36,995] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 28, in <module>
+    python_callable=extract_main,
+NameError: name 'extract_main' is not defined
+[2025-05-12 23:22:36,995] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:22:37,012] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.039 seconds
+[2025-05-12 23:23:07,166] {processor.py:153} INFO - Started process (PID=416) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:23:07,174] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:23:07,175] {logging_mixin.py:115} INFO - [2025-05-12 23:23:07,175] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:23:07,179] {logging_mixin.py:115} INFO - [2025-05-12 23:23:07,179] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 28, in <module>
+    python_callable=extract_main,
+NameError: name 'extract_main' is not defined
+[2025-05-12 23:23:07,179] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:23:07,194] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.030 seconds
+[2025-05-12 23:23:37,358] {processor.py:153} INFO - Started process (PID=421) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:23:37,358] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:23:37,360] {logging_mixin.py:115} INFO - [2025-05-12 23:23:37,359] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:23:37,364] {logging_mixin.py:115} INFO - [2025-05-12 23:23:37,364] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 28, in <module>
+    python_callable=extract_main,
+NameError: name 'extract_main' is not defined
+[2025-05-12 23:23:37,364] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:23:37,384] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.029 seconds
+[2025-05-12 23:24:07,540] {processor.py:153} INFO - Started process (PID=426) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:24:07,548] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:24:07,549] {logging_mixin.py:115} INFO - [2025-05-12 23:24:07,548] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:24:07,552] {logging_mixin.py:115} INFO - [2025-05-12 23:24:07,552] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 28, in <module>
+    python_callable=extract_main,
+NameError: name 'extract_main' is not defined
+[2025-05-12 23:24:07,552] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:24:07,568] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.030 seconds
+[2025-05-12 23:24:37,711] {processor.py:153} INFO - Started process (PID=431) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:24:37,718] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:24:37,719] {logging_mixin.py:115} INFO - [2025-05-12 23:24:37,719] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:24:37,723] {logging_mixin.py:115} INFO - [2025-05-12 23:24:37,723] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 28, in <module>
+    python_callable=extract_main,
+NameError: name 'extract_main' is not defined
+[2025-05-12 23:24:37,723] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:24:37,739] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.030 seconds
+[2025-05-12 23:25:07,868] {processor.py:153} INFO - Started process (PID=436) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:25:07,875] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:25:07,876] {logging_mixin.py:115} INFO - [2025-05-12 23:25:07,876] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:25:07,880] {logging_mixin.py:115} INFO - [2025-05-12 23:25:07,880] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 28, in <module>
+    python_callable=extract_main,
+NameError: name 'extract_main' is not defined
+[2025-05-12 23:25:07,880] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:25:07,897] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.031 seconds
+[2025-05-12 23:25:38,075] {processor.py:153} INFO - Started process (PID=441) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:25:38,082] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:25:38,084] {logging_mixin.py:115} INFO - [2025-05-12 23:25:38,083] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:25:38,088] {logging_mixin.py:115} INFO - [2025-05-12 23:25:38,088] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 28, in <module>
+    python_callable=extract_main,
+NameError: name 'extract_main' is not defined
+[2025-05-12 23:25:38,088] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:25:38,103] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.031 seconds
+[2025-05-12 23:26:08,264] {processor.py:153} INFO - Started process (PID=446) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:26:08,272] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:26:08,273] {logging_mixin.py:115} INFO - [2025-05-12 23:26:08,273] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:26:08,281] {logging_mixin.py:115} INFO - [2025-05-12 23:26:08,280] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 28, in <module>
+    python_callable=extract_main,
+NameError: name 'extract_main' is not defined
+[2025-05-12 23:26:08,281] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:26:08,306] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.045 seconds
+[2025-05-12 23:26:38,458] {processor.py:153} INFO - Started process (PID=451) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:26:38,458] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:26:38,458] {logging_mixin.py:115} INFO - [2025-05-12 23:26:38,458] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:26:38,463] {logging_mixin.py:115} INFO - [2025-05-12 23:26:38,462] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 28, in <module>
+    python_callable=extract_main,
+NameError: name 'extract_main' is not defined
+[2025-05-12 23:26:38,463] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:26:38,477] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.020 seconds
+[2025-05-12 23:27:08,635] {processor.py:153} INFO - Started process (PID=456) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:27:08,643] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:27:08,644] {logging_mixin.py:115} INFO - [2025-05-12 23:27:08,644] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:27:08,654] {logging_mixin.py:115} INFO - [2025-05-12 23:27:08,654] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 28, in <module>
+    python_callable=extract_main,
+NameError: name 'extract_main' is not defined
+[2025-05-12 23:27:08,654] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:27:08,672] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.042 seconds
+[2025-05-12 23:27:38,817] {processor.py:153} INFO - Started process (PID=461) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:27:38,825] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:27:38,826] {logging_mixin.py:115} INFO - [2025-05-12 23:27:38,826] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:27:38,834] {logging_mixin.py:115} INFO - [2025-05-12 23:27:38,833] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 28, in <module>
+    python_callable=extract_main,
+NameError: name 'extract_main' is not defined
+[2025-05-12 23:27:38,834] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:27:38,850] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.036 seconds
+[2025-05-12 23:28:08,998] {processor.py:153} INFO - Started process (PID=466) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:28:09,006] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:28:09,007] {logging_mixin.py:115} INFO - [2025-05-12 23:28:09,007] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:28:09,016] {logging_mixin.py:115} INFO - [2025-05-12 23:28:09,015] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 28, in <module>
+    python_callable=extract_main,
+NameError: name 'extract_main' is not defined
+[2025-05-12 23:28:09,016] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:28:09,040] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.047 seconds
+[2025-05-12 23:28:15,035] {processor.py:153} INFO - Started process (PID=471) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:28:15,035] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:28:15,035] {logging_mixin.py:115} INFO - [2025-05-12 23:28:15,035] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:28:15,039] {processor.py:651} INFO - DAG(s) dict_keys(['api_pipeline_integration']) retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:28:15,086] {logging_mixin.py:115} INFO - [2025-05-12 23:28:15,086] {manager.py:508} INFO - Created Permission View: can edit on DAG:api_pipeline_integration
+[2025-05-12 23:28:15,091] {logging_mixin.py:115} INFO - [2025-05-12 23:28:15,091] {manager.py:508} INFO - Created Permission View: can delete on DAG:api_pipeline_integration
+[2025-05-12 23:28:15,096] {logging_mixin.py:115} INFO - [2025-05-12 23:28:15,096] {manager.py:508} INFO - Created Permission View: can read on DAG:api_pipeline_integration
+[2025-05-12 23:28:15,096] {logging_mixin.py:115} INFO - [2025-05-12 23:28:15,096] {dag.py:2371} INFO - Sync 1 DAGs
+[2025-05-12 23:28:15,100] {logging_mixin.py:115} INFO - [2025-05-12 23:28:15,100] {dag.py:2390} INFO - Creating ORM DAG for api_pipeline_integration
+[2025-05-12 23:28:15,107] {logging_mixin.py:115} INFO - [2025-05-12 23:28:15,107] {dag.py:2919} INFO - Setting next_dagrun for api_pipeline_integration to 2025-05-12T23:10:00+00:00, run_after=2025-05-12T23:20:00+00:00
+[2025-05-12 23:28:15,115] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.082 seconds
+[2025-05-12 23:28:45,249] {processor.py:153} INFO - Started process (PID=478) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:28:45,256] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:28:45,256] {logging_mixin.py:115} INFO - [2025-05-12 23:28:45,256] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:28:45,260] {processor.py:651} INFO - DAG(s) dict_keys(['api_pipeline_integration']) retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:28:45,275] {logging_mixin.py:115} INFO - [2025-05-12 23:28:45,275] {dag.py:2371} INFO - Sync 1 DAGs
+[2025-05-12 23:28:45,287] {logging_mixin.py:115} INFO - [2025-05-12 23:28:45,287] {dag.py:2919} INFO - Setting next_dagrun for api_pipeline_integration to 2025-05-12T23:20:00+00:00, run_after=2025-05-12T23:30:00+00:00
+[2025-05-12 23:28:45,293] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.045 seconds
+[2025-05-12 23:29:06,377] {processor.py:153} INFO - Started process (PID=483) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:29:06,378] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:29:06,378] {logging_mixin.py:115} INFO - [2025-05-12 23:29:06,378] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:29:06,384] {processor.py:651} INFO - DAG(s) dict_keys(['api_pipeline_integration']) retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:29:06,404] {logging_mixin.py:115} INFO - [2025-05-12 23:29:06,404] {dag.py:2371} INFO - Sync 1 DAGs
+[2025-05-12 23:29:06,423] {logging_mixin.py:115} INFO - [2025-05-12 23:29:06,423] {dag.py:2919} INFO - Setting next_dagrun for api_pipeline_integration to 2025-05-12T23:20:00+00:00, run_after=2025-05-12T23:30:00+00:00
+[2025-05-12 23:29:06,432] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.057 seconds
+[2025-05-12 23:29:36,584] {processor.py:153} INFO - Started process (PID=488) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:29:36,592] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:29:36,593] {logging_mixin.py:115} INFO - [2025-05-12 23:29:36,593] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:29:36,601] {processor.py:651} INFO - DAG(s) dict_keys(['api_pipeline_integration']) retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:29:36,638] {logging_mixin.py:115} INFO - [2025-05-12 23:29:36,638] {dag.py:2371} INFO - Sync 1 DAGs
+[2025-05-12 23:29:36,642] {logging_mixin.py:115} INFO - [2025-05-12 23:29:36,642] {dag.py:2390} INFO - Creating ORM DAG for api_pipeline_integration
+[2025-05-12 23:29:36,649] {logging_mixin.py:115} INFO - [2025-05-12 23:29:36,649] {dag.py:2919} INFO - Setting next_dagrun for api_pipeline_integration to 2025-05-12T23:10:00+00:00, run_after=2025-05-12T23:20:00+00:00
+[2025-05-12 23:29:36,656] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.077 seconds
+[2025-05-12 23:30:06,756] {processor.py:153} INFO - Started process (PID=497) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:30:06,764] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:30:06,765] {logging_mixin.py:115} INFO - [2025-05-12 23:30:06,764] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:30:06,772] {processor.py:651} INFO - DAG(s) dict_keys(['api_pipeline_integration']) retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:30:06,791] {logging_mixin.py:115} INFO - [2025-05-12 23:30:06,791] {dag.py:2371} INFO - Sync 1 DAGs
+[2025-05-12 23:30:06,803] {logging_mixin.py:115} INFO - [2025-05-12 23:30:06,803] {dag.py:2919} INFO - Setting next_dagrun for api_pipeline_integration to 2025-05-12T23:30:00+00:00, run_after=2025-05-12T23:40:00+00:00
+[2025-05-12 23:30:06,810] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.056 seconds
+[2025-05-12 23:30:36,957] {processor.py:153} INFO - Started process (PID=502) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:30:36,965] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:30:36,966] {logging_mixin.py:115} INFO - [2025-05-12 23:30:36,966] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:30:36,974] {processor.py:651} INFO - DAG(s) dict_keys(['api_pipeline_integration']) retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:30:36,990] {logging_mixin.py:115} INFO - [2025-05-12 23:30:36,990] {dag.py:2371} INFO - Sync 1 DAGs
+[2025-05-12 23:30:37,003] {logging_mixin.py:115} INFO - [2025-05-12 23:30:37,003] {dag.py:2919} INFO - Setting next_dagrun for api_pipeline_integration to 2025-05-12T23:30:00+00:00, run_after=2025-05-12T23:40:00+00:00
+[2025-05-12 23:30:37,012] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.059 seconds
+[2025-05-12 23:30:52,041] {processor.py:153} INFO - Started process (PID=507) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:30:52,042] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:30:52,042] {logging_mixin.py:115} INFO - [2025-05-12 23:30:52,042] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:30:52,049] {processor.py:651} INFO - DAG(s) dict_keys(['api_pipeline_integration']) retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:30:52,065] {logging_mixin.py:115} INFO - [2025-05-12 23:30:52,065] {dag.py:2371} INFO - Sync 1 DAGs
+[2025-05-12 23:30:52,077] {logging_mixin.py:115} INFO - [2025-05-12 23:30:52,077] {dag.py:2919} INFO - Setting next_dagrun for api_pipeline_integration to 2025-05-12T23:30:00+00:00, run_after=2025-05-12T23:40:00+00:00
+[2025-05-12 23:30:52,085] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.047 seconds
+[2025-05-12 23:31:05,128] {processor.py:153} INFO - Started process (PID=512) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:31:05,128] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:31:05,129] {logging_mixin.py:115} INFO - [2025-05-12 23:31:05,129] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:31:05,134] {processor.py:651} INFO - DAG(s) dict_keys(['api_pipeline_integration']) retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:31:05,175] {logging_mixin.py:115} INFO - [2025-05-12 23:31:05,175] {dag.py:2371} INFO - Sync 1 DAGs
+[2025-05-12 23:31:05,189] {logging_mixin.py:115} INFO - [2025-05-12 23:31:05,188] {dag.py:2919} INFO - Setting next_dagrun for api_pipeline_integration to 2025-05-12T23:30:00+00:00, run_after=2025-05-12T23:40:00+00:00
+[2025-05-12 23:31:05,201] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.074 seconds
+[2025-05-12 23:31:35,314] {processor.py:153} INFO - Started process (PID=517) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:31:35,322] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:31:35,322] {logging_mixin.py:115} INFO - [2025-05-12 23:31:35,322] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:31:35,329] {processor.py:651} INFO - DAG(s) dict_keys(['api_pipeline_integration']) retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:31:35,370] {logging_mixin.py:115} INFO - [2025-05-12 23:31:35,370] {dag.py:2371} INFO - Sync 1 DAGs
+[2025-05-12 23:31:35,374] {logging_mixin.py:115} INFO - [2025-05-12 23:31:35,374] {dag.py:2390} INFO - Creating ORM DAG for api_pipeline_integration
+[2025-05-12 23:31:35,381] {logging_mixin.py:115} INFO - [2025-05-12 23:31:35,381] {dag.py:2919} INFO - Setting next_dagrun for api_pipeline_integration to 2025-05-12T23:20:00+00:00, run_after=2025-05-12T23:30:00+00:00
+[2025-05-12 23:31:35,391] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.079 seconds
+[2025-05-12 23:32:05,516] {processor.py:153} INFO - Started process (PID=522) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:32:05,524] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:32:05,524] {logging_mixin.py:115} INFO - [2025-05-12 23:32:05,524] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:32:05,532] {processor.py:651} INFO - DAG(s) dict_keys(['api_pipeline_integration']) retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:32:05,547] {logging_mixin.py:115} INFO - [2025-05-12 23:32:05,547] {dag.py:2371} INFO - Sync 1 DAGs
+[2025-05-12 23:32:05,559] {logging_mixin.py:115} INFO - [2025-05-12 23:32:05,559] {dag.py:2919} INFO - Setting next_dagrun for api_pipeline_integration to 2025-05-12T23:20:00+00:00, run_after=2025-05-12T23:30:00+00:00
+[2025-05-12 23:32:05,567] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.056 seconds
+[2025-05-12 23:32:35,711] {processor.py:153} INFO - Started process (PID=527) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:32:35,719] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:32:35,719] {logging_mixin.py:115} INFO - [2025-05-12 23:32:35,719] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:32:35,729] {processor.py:651} INFO - DAG(s) dict_keys(['api_pipeline_integration']) retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:32:35,749] {logging_mixin.py:115} INFO - [2025-05-12 23:32:35,749] {dag.py:2371} INFO - Sync 1 DAGs
+[2025-05-12 23:32:35,760] {logging_mixin.py:115} INFO - [2025-05-12 23:32:35,760] {dag.py:2919} INFO - Setting next_dagrun for api_pipeline_integration to 2025-05-12T23:20:00+00:00, run_after=2025-05-12T23:30:00+00:00
+[2025-05-12 23:32:35,767] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.059 seconds
+[2025-05-12 23:33:05,906] {processor.py:153} INFO - Started process (PID=532) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:33:05,914] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:33:05,915] {logging_mixin.py:115} INFO - [2025-05-12 23:33:05,915] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:33:05,928] {processor.py:651} INFO - DAG(s) dict_keys(['api_pipeline_integration']) retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:33:05,941] {logging_mixin.py:115} INFO - [2025-05-12 23:33:05,941] {dag.py:2371} INFO - Sync 1 DAGs
+[2025-05-12 23:33:05,952] {logging_mixin.py:115} INFO - [2025-05-12 23:33:05,952] {dag.py:2919} INFO - Setting next_dagrun for api_pipeline_integration to 2025-05-12T23:20:00+00:00, run_after=2025-05-12T23:30:00+00:00
+[2025-05-12 23:33:05,959] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.056 seconds
+[2025-05-12 23:33:36,101] {processor.py:153} INFO - Started process (PID=539) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:33:36,101] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:33:36,101] {logging_mixin.py:115} INFO - [2025-05-12 23:33:36,101] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:33:36,107] {processor.py:651} INFO - DAG(s) dict_keys(['api_pipeline_integration']) retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:33:36,120] {logging_mixin.py:115} INFO - [2025-05-12 23:33:36,120] {dag.py:2371} INFO - Sync 1 DAGs
+[2025-05-12 23:33:36,134] {logging_mixin.py:115} INFO - [2025-05-12 23:33:36,133] {dag.py:2919} INFO - Setting next_dagrun for api_pipeline_integration to 2025-05-12T23:30:00+00:00, run_after=2025-05-12T23:40:00+00:00
+[2025-05-12 23:33:36,140] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.041 seconds
+[2025-05-12 23:34:06,293] {processor.py:153} INFO - Started process (PID=544) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:34:06,301] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:34:06,301] {logging_mixin.py:115} INFO - [2025-05-12 23:34:06,301] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:34:06,309] {processor.py:651} INFO - DAG(s) dict_keys(['api_pipeline_integration']) retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:34:06,321] {logging_mixin.py:115} INFO - [2025-05-12 23:34:06,321] {dag.py:2371} INFO - Sync 1 DAGs
+[2025-05-12 23:34:06,332] {logging_mixin.py:115} INFO - [2025-05-12 23:34:06,332] {dag.py:2919} INFO - Setting next_dagrun for api_pipeline_integration to 2025-05-12T23:30:00+00:00, run_after=2025-05-12T23:40:00+00:00
+[2025-05-12 23:34:06,340] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.050 seconds
+[2025-05-12 23:34:36,486] {processor.py:153} INFO - Started process (PID=549) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:34:36,494] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:34:36,494] {logging_mixin.py:115} INFO - [2025-05-12 23:34:36,494] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:34:36,502] {processor.py:651} INFO - DAG(s) dict_keys(['api_pipeline_integration']) retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:34:36,518] {logging_mixin.py:115} INFO - [2025-05-12 23:34:36,518] {dag.py:2371} INFO - Sync 1 DAGs
+[2025-05-12 23:34:36,531] {logging_mixin.py:115} INFO - [2025-05-12 23:34:36,531] {dag.py:2919} INFO - Setting next_dagrun for api_pipeline_integration to 2025-05-12T23:30:00+00:00, run_after=2025-05-12T23:40:00+00:00
+[2025-05-12 23:34:36,538] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.055 seconds
+[2025-05-12 23:35:06,670] {processor.py:153} INFO - Started process (PID=554) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:35:06,677] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:35:06,678] {logging_mixin.py:115} INFO - [2025-05-12 23:35:06,678] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:35:06,684] {processor.py:651} INFO - DAG(s) dict_keys(['api_pipeline_integration']) retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:35:06,698] {logging_mixin.py:115} INFO - [2025-05-12 23:35:06,698] {dag.py:2371} INFO - Sync 1 DAGs
+[2025-05-12 23:35:06,710] {logging_mixin.py:115} INFO - [2025-05-12 23:35:06,710] {dag.py:2919} INFO - Setting next_dagrun for api_pipeline_integration to 2025-05-12T23:30:00+00:00, run_after=2025-05-12T23:40:00+00:00
+[2025-05-12 23:35:06,717] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.049 seconds
+[2025-05-12 23:35:36,839] {processor.py:153} INFO - Started process (PID=561) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:35:36,839] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:35:36,840] {logging_mixin.py:115} INFO - [2025-05-12 23:35:36,840] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:35:36,846] {processor.py:651} INFO - DAG(s) dict_keys(['api_pipeline_integration']) retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:35:36,861] {logging_mixin.py:115} INFO - [2025-05-12 23:35:36,861] {dag.py:2371} INFO - Sync 1 DAGs
+[2025-05-12 23:35:36,873] {logging_mixin.py:115} INFO - [2025-05-12 23:35:36,873] {dag.py:2919} INFO - Setting next_dagrun for api_pipeline_integration to 2025-05-12T23:30:00+00:00, run_after=2025-05-12T23:40:00+00:00
+[2025-05-12 23:35:36,880] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.042 seconds
+[2025-05-12 23:36:07,026] {processor.py:153} INFO - Started process (PID=566) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:36:07,026] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:36:07,026] {logging_mixin.py:115} INFO - [2025-05-12 23:36:07,026] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:36:07,034] {processor.py:651} INFO - DAG(s) dict_keys(['api_pipeline_integration']) retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:36:07,048] {logging_mixin.py:115} INFO - [2025-05-12 23:36:07,048] {dag.py:2371} INFO - Sync 1 DAGs
+[2025-05-12 23:36:07,061] {logging_mixin.py:115} INFO - [2025-05-12 23:36:07,061] {dag.py:2919} INFO - Setting next_dagrun for api_pipeline_integration to 2025-05-12T23:30:00+00:00, run_after=2025-05-12T23:40:00+00:00
+[2025-05-12 23:36:07,067] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.044 seconds
+[2025-05-12 23:36:37,224] {processor.py:153} INFO - Started process (PID=571) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:36:37,232] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:36:37,233] {logging_mixin.py:115} INFO - [2025-05-12 23:36:37,233] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:36:37,239] {processor.py:651} INFO - DAG(s) dict_keys(['api_pipeline_integration']) retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:36:37,252] {logging_mixin.py:115} INFO - [2025-05-12 23:36:37,252] {dag.py:2371} INFO - Sync 1 DAGs
+[2025-05-12 23:36:37,264] {logging_mixin.py:115} INFO - [2025-05-12 23:36:37,264] {dag.py:2919} INFO - Setting next_dagrun for api_pipeline_integration to 2025-05-12T23:30:00+00:00, run_after=2025-05-12T23:40:00+00:00
+[2025-05-12 23:36:37,272] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.050 seconds
+[2025-05-12 23:36:40,256] {processor.py:153} INFO - Started process (PID=576) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:36:40,257] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:36:40,257] {logging_mixin.py:115} INFO - [2025-05-12 23:36:40,257] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:36:40,265] {processor.py:651} INFO - DAG(s) dict_keys(['api_pipeline_integration']) retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:36:40,279] {logging_mixin.py:115} INFO - [2025-05-12 23:36:40,279] {dag.py:2371} INFO - Sync 1 DAGs
+[2025-05-12 23:36:40,292] {logging_mixin.py:115} INFO - [2025-05-12 23:36:40,292] {dag.py:2919} INFO - Setting next_dagrun for api_pipeline_integration to 2025-05-12T23:30:00+00:00, run_after=2025-05-12T23:40:00+00:00
+[2025-05-12 23:36:40,300] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.049 seconds
+[2025-05-12 23:37:10,483] {processor.py:153} INFO - Started process (PID=581) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:37:10,491] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:37:10,491] {logging_mixin.py:115} INFO - [2025-05-12 23:37:10,491] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:37:10,499] {processor.py:651} INFO - DAG(s) dict_keys(['api_pipeline_integration']) retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:37:10,536] {logging_mixin.py:115} INFO - [2025-05-12 23:37:10,536] {dag.py:2371} INFO - Sync 1 DAGs
+[2025-05-12 23:37:10,540] {logging_mixin.py:115} INFO - [2025-05-12 23:37:10,540] {dag.py:2390} INFO - Creating ORM DAG for api_pipeline_integration
+[2025-05-12 23:37:10,549] {logging_mixin.py:115} INFO - [2025-05-12 23:37:10,549] {dag.py:2919} INFO - Setting next_dagrun for api_pipeline_integration to 2025-05-12T23:20:00+00:00, run_after=2025-05-12T23:30:00+00:00
+[2025-05-12 23:37:10,560] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.082 seconds
+[2025-05-12 23:37:40,671] {processor.py:153} INFO - Started process (PID=588) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:37:40,678] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:37:40,678] {logging_mixin.py:115} INFO - [2025-05-12 23:37:40,678] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:37:40,687] {processor.py:651} INFO - DAG(s) dict_keys(['api_pipeline_integration']) retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:37:40,700] {logging_mixin.py:115} INFO - [2025-05-12 23:37:40,700] {dag.py:2371} INFO - Sync 1 DAGs
+[2025-05-12 23:37:40,712] {logging_mixin.py:115} INFO - [2025-05-12 23:37:40,712] {dag.py:2919} INFO - Setting next_dagrun for api_pipeline_integration to 2025-05-12T23:30:00+00:00, run_after=2025-05-12T23:40:00+00:00
+[2025-05-12 23:37:40,719] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.051 seconds
+[2025-05-12 23:38:10,856] {processor.py:153} INFO - Started process (PID=593) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:38:10,863] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:38:10,864] {logging_mixin.py:115} INFO - [2025-05-12 23:38:10,864] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:38:10,872] {processor.py:651} INFO - DAG(s) dict_keys(['api_pipeline_integration']) retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:38:10,899] {logging_mixin.py:115} INFO - [2025-05-12 23:38:10,899] {dag.py:2371} INFO - Sync 1 DAGs
+[2025-05-12 23:38:10,919] {logging_mixin.py:115} INFO - [2025-05-12 23:38:10,919] {dag.py:2919} INFO - Setting next_dagrun for api_pipeline_integration to 2025-05-12T23:30:00+00:00, run_after=2025-05-12T23:40:00+00:00
+[2025-05-12 23:38:10,929] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.075 seconds
+[2025-05-12 23:39:14,468] {processor.py:153} INFO - Started process (PID=230) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:39:14,476] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:39:14,476] {logging_mixin.py:115} INFO - [2025-05-12 23:39:14,476] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:39:14,487] {processor.py:651} INFO - DAG(s) dict_keys(['api_pipeline_integration']) retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:39:14,546] {logging_mixin.py:115} INFO - [2025-05-12 23:39:14,546] {manager.py:508} INFO - Created Permission View: can edit on DAG:api_pipeline_integration
+[2025-05-12 23:39:14,552] {logging_mixin.py:115} INFO - [2025-05-12 23:39:14,552] {manager.py:508} INFO - Created Permission View: can read on DAG:api_pipeline_integration
+[2025-05-12 23:39:14,558] {logging_mixin.py:115} INFO - [2025-05-12 23:39:14,558] {manager.py:508} INFO - Created Permission View: can delete on DAG:api_pipeline_integration
+[2025-05-12 23:39:14,558] {logging_mixin.py:115} INFO - [2025-05-12 23:39:14,558] {dag.py:2371} INFO - Sync 1 DAGs
+[2025-05-12 23:39:14,563] {logging_mixin.py:115} INFO - [2025-05-12 23:39:14,563] {dag.py:2390} INFO - Creating ORM DAG for api_pipeline_integration
+[2025-05-12 23:39:14,573] {logging_mixin.py:115} INFO - [2025-05-12 23:39:14,572] {dag.py:2919} INFO - Setting next_dagrun for api_pipeline_integration to 2025-05-12T23:20:00+00:00, run_after=2025-05-12T23:30:00+00:00
+[2025-05-12 23:39:14,590] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.124 seconds
+[2025-05-12 23:39:44,648] {processor.py:153} INFO - Started process (PID=238) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:39:44,648] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:39:44,648] {logging_mixin.py:115} INFO - [2025-05-12 23:39:44,648] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:39:44,654] {processor.py:651} INFO - DAG(s) dict_keys(['api_pipeline_integration']) retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:39:44,672] {logging_mixin.py:115} INFO - [2025-05-12 23:39:44,672] {dag.py:2371} INFO - Sync 1 DAGs
+[2025-05-12 23:39:44,685] {logging_mixin.py:115} INFO - [2025-05-12 23:39:44,684] {dag.py:2919} INFO - Setting next_dagrun for api_pipeline_integration to 2025-05-12T23:30:00+00:00, run_after=2025-05-12T23:40:00+00:00
+[2025-05-12 23:39:44,691] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.045 seconds
+[2025-05-12 23:40:14,845] {processor.py:153} INFO - Started process (PID=245) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:40:14,845] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:40:14,846] {logging_mixin.py:115} INFO - [2025-05-12 23:40:14,846] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:40:14,850] {processor.py:651} INFO - DAG(s) dict_keys(['api_pipeline_integration']) retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:40:14,867] {logging_mixin.py:115} INFO - [2025-05-12 23:40:14,867] {dag.py:2371} INFO - Sync 1 DAGs
+[2025-05-12 23:40:14,879] {logging_mixin.py:115} INFO - [2025-05-12 23:40:14,879] {dag.py:2919} INFO - Setting next_dagrun for api_pipeline_integration to 2025-05-12T23:40:00+00:00, run_after=2025-05-12T23:50:00+00:00
+[2025-05-12 23:40:14,887] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.043 seconds
+[2025-05-12 23:40:45,023] {processor.py:153} INFO - Started process (PID=250) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:40:45,024] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:40:45,025] {logging_mixin.py:115} INFO - [2025-05-12 23:40:45,025] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:40:45,029] {processor.py:651} INFO - DAG(s) dict_keys(['api_pipeline_integration']) retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:40:45,044] {logging_mixin.py:115} INFO - [2025-05-12 23:40:45,044] {dag.py:2371} INFO - Sync 1 DAGs
+[2025-05-12 23:40:45,058] {logging_mixin.py:115} INFO - [2025-05-12 23:40:45,058] {dag.py:2919} INFO - Setting next_dagrun for api_pipeline_integration to 2025-05-12T23:40:00+00:00, run_after=2025-05-12T23:50:00+00:00
+[2025-05-12 23:40:45,068] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.046 seconds
+[2025-05-12 23:41:15,213] {processor.py:153} INFO - Started process (PID=255) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:41:15,214] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:41:15,214] {logging_mixin.py:115} INFO - [2025-05-12 23:41:15,214] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:41:15,218] {processor.py:651} INFO - DAG(s) dict_keys(['api_pipeline_integration']) retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:41:15,243] {logging_mixin.py:115} INFO - [2025-05-12 23:41:15,243] {dag.py:2371} INFO - Sync 1 DAGs
+[2025-05-12 23:41:15,256] {logging_mixin.py:115} INFO - [2025-05-12 23:41:15,256] {dag.py:2919} INFO - Setting next_dagrun for api_pipeline_integration to 2025-05-12T23:40:00+00:00, run_after=2025-05-12T23:50:00+00:00
+[2025-05-12 23:41:15,262] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.050 seconds
+[2025-05-12 23:41:45,390] {processor.py:153} INFO - Started process (PID=260) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:41:45,393] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:41:45,393] {logging_mixin.py:115} INFO - [2025-05-12 23:41:45,393] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:41:45,400] {processor.py:651} INFO - DAG(s) dict_keys(['api_pipeline_integration']) retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:41:45,413] {logging_mixin.py:115} INFO - [2025-05-12 23:41:45,413] {dag.py:2371} INFO - Sync 1 DAGs
+[2025-05-12 23:41:45,424] {logging_mixin.py:115} INFO - [2025-05-12 23:41:45,424] {dag.py:2919} INFO - Setting next_dagrun for api_pipeline_integration to 2025-05-12T23:40:00+00:00, run_after=2025-05-12T23:50:00+00:00
+[2025-05-12 23:41:45,430] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.042 seconds
+[2025-05-12 23:42:15,574] {processor.py:153} INFO - Started process (PID=267) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:42:15,581] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:42:15,582] {logging_mixin.py:115} INFO - [2025-05-12 23:42:15,581] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:42:15,587] {processor.py:651} INFO - DAG(s) dict_keys(['api_pipeline_integration']) retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:42:15,605] {logging_mixin.py:115} INFO - [2025-05-12 23:42:15,605] {dag.py:2371} INFO - Sync 1 DAGs
+[2025-05-12 23:42:15,616] {logging_mixin.py:115} INFO - [2025-05-12 23:42:15,616] {dag.py:2919} INFO - Setting next_dagrun for api_pipeline_integration to 2025-05-12T23:40:00+00:00, run_after=2025-05-12T23:50:00+00:00
+[2025-05-12 23:42:15,623] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.051 seconds
+[2025-05-12 23:42:45,746] {processor.py:153} INFO - Started process (PID=274) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:42:45,747] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:42:45,747] {logging_mixin.py:115} INFO - [2025-05-12 23:42:45,747] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:42:45,752] {processor.py:651} INFO - DAG(s) dict_keys(['api_pipeline_integration']) retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:42:45,768] {logging_mixin.py:115} INFO - [2025-05-12 23:42:45,768] {dag.py:2371} INFO - Sync 1 DAGs
+[2025-05-12 23:42:45,780] {logging_mixin.py:115} INFO - [2025-05-12 23:42:45,780] {dag.py:2919} INFO - Setting next_dagrun for api_pipeline_integration to 2025-05-12T23:40:00+00:00, run_after=2025-05-12T23:50:00+00:00
+[2025-05-12 23:42:45,786] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.042 seconds
+[2025-05-12 23:43:15,926] {processor.py:153} INFO - Started process (PID=279) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:43:15,934] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:43:15,934] {logging_mixin.py:115} INFO - [2025-05-12 23:43:15,934] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:43:15,938] {processor.py:651} INFO - DAG(s) dict_keys(['api_pipeline_integration']) retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:43:15,952] {logging_mixin.py:115} INFO - [2025-05-12 23:43:15,952] {dag.py:2371} INFO - Sync 1 DAGs
+[2025-05-12 23:43:15,965] {logging_mixin.py:115} INFO - [2025-05-12 23:43:15,964] {dag.py:2919} INFO - Setting next_dagrun for api_pipeline_integration to 2025-05-12T23:40:00+00:00, run_after=2025-05-12T23:50:00+00:00
+[2025-05-12 23:43:15,972] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.047 seconds
+[2025-05-12 23:43:46,117] {processor.py:153} INFO - Started process (PID=284) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:43:46,117] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:43:46,118] {logging_mixin.py:115} INFO - [2025-05-12 23:43:46,118] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:43:46,124] {processor.py:651} INFO - DAG(s) dict_keys(['api_pipeline_integration']) retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:43:46,156] {logging_mixin.py:115} INFO - [2025-05-12 23:43:46,156] {dag.py:2371} INFO - Sync 1 DAGs
+[2025-05-12 23:43:46,160] {logging_mixin.py:115} INFO - [2025-05-12 23:43:46,160] {dag.py:2390} INFO - Creating ORM DAG for api_pipeline_integration
+[2025-05-12 23:43:46,166] {logging_mixin.py:115} INFO - [2025-05-12 23:43:46,166] {dag.py:2919} INFO - Setting next_dagrun for api_pipeline_integration to 2025-05-12T23:30:00+00:00, run_after=2025-05-12T23:40:00+00:00
+[2025-05-12 23:43:46,174] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.060 seconds
+[2025-05-12 23:44:16,340] {processor.py:153} INFO - Started process (PID=289) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:44:16,348] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:44:16,348] {logging_mixin.py:115} INFO - [2025-05-12 23:44:16,348] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:44:16,355] {processor.py:651} INFO - DAG(s) dict_keys(['api_pipeline_integration']) retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:44:16,370] {logging_mixin.py:115} INFO - [2025-05-12 23:44:16,370] {dag.py:2371} INFO - Sync 1 DAGs
+[2025-05-12 23:44:16,382] {logging_mixin.py:115} INFO - [2025-05-12 23:44:16,381] {dag.py:2919} INFO - Setting next_dagrun for api_pipeline_integration to 2025-05-12T23:30:00+00:00, run_after=2025-05-12T23:40:00+00:00
+[2025-05-12 23:44:16,388] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.052 seconds
+[2025-05-12 23:44:46,522] {processor.py:153} INFO - Started process (PID=294) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:44:46,530] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:44:46,531] {logging_mixin.py:115} INFO - [2025-05-12 23:44:46,531] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:44:46,537] {processor.py:651} INFO - DAG(s) dict_keys(['api_pipeline_integration']) retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:44:46,558] {logging_mixin.py:115} INFO - [2025-05-12 23:44:46,558] {dag.py:2371} INFO - Sync 1 DAGs
+[2025-05-12 23:44:46,569] {logging_mixin.py:115} INFO - [2025-05-12 23:44:46,569] {dag.py:2919} INFO - Setting next_dagrun for api_pipeline_integration to 2025-05-12T23:30:00+00:00, run_after=2025-05-12T23:40:00+00:00
+[2025-05-12 23:44:46,577] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.059 seconds
+[2025-05-12 23:45:07,651] {processor.py:153} INFO - Started process (PID=299) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:45:07,659] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:45:07,659] {logging_mixin.py:115} INFO - [2025-05-12 23:45:07,659] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:45:07,667] {processor.py:651} INFO - DAG(s) dict_keys(['api_pipeline_integration']) retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:45:07,704] {logging_mixin.py:115} INFO - [2025-05-12 23:45:07,704] {dag.py:2371} INFO - Sync 1 DAGs
+[2025-05-12 23:45:07,715] {logging_mixin.py:115} INFO - [2025-05-12 23:45:07,715] {dag.py:2919} INFO - Setting next_dagrun for api_pipeline_integration to 2025-05-12T23:20:00+00:00, run_after=2025-05-12T23:40:00+00:00
+[2025-05-12 23:45:07,723] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.076 seconds
+[2025-05-12 23:45:37,843] {processor.py:153} INFO - Started process (PID=304) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:45:37,850] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:45:37,851] {logging_mixin.py:115} INFO - [2025-05-12 23:45:37,851] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:45:37,859] {processor.py:651} INFO - DAG(s) dict_keys(['api_pipeline_integration']) retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:45:37,874] {logging_mixin.py:115} INFO - [2025-05-12 23:45:37,874] {dag.py:2371} INFO - Sync 1 DAGs
+[2025-05-12 23:45:37,887] {logging_mixin.py:115} INFO - [2025-05-12 23:45:37,887] {dag.py:2919} INFO - Setting next_dagrun for api_pipeline_integration to 2025-05-12T23:20:00+00:00, run_after=2025-05-12T23:40:00+00:00
+[2025-05-12 23:45:37,894] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.055 seconds
+[2025-05-12 23:46:08,034] {processor.py:153} INFO - Started process (PID=309) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:46:08,041] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:46:08,042] {logging_mixin.py:115} INFO - [2025-05-12 23:46:08,042] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:46:08,048] {processor.py:651} INFO - DAG(s) dict_keys(['api_pipeline_integration']) retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:46:08,068] {logging_mixin.py:115} INFO - [2025-05-12 23:46:08,068] {dag.py:2371} INFO - Sync 1 DAGs
+[2025-05-12 23:46:08,080] {logging_mixin.py:115} INFO - [2025-05-12 23:46:08,080] {dag.py:2919} INFO - Setting next_dagrun for api_pipeline_integration to 2025-05-12T23:20:00+00:00, run_after=2025-05-12T23:40:00+00:00
+[2025-05-12 23:46:08,087] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.057 seconds
+[2025-05-12 23:46:38,208] {processor.py:153} INFO - Started process (PID=314) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:46:38,216] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:46:38,216] {logging_mixin.py:115} INFO - [2025-05-12 23:46:38,216] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:46:38,222] {processor.py:651} INFO - DAG(s) dict_keys(['api_pipeline_integration']) retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:46:38,242] {logging_mixin.py:115} INFO - [2025-05-12 23:46:38,242] {dag.py:2371} INFO - Sync 1 DAGs
+[2025-05-12 23:46:38,256] {logging_mixin.py:115} INFO - [2025-05-12 23:46:38,256] {dag.py:2919} INFO - Setting next_dagrun for api_pipeline_integration to 2025-05-12T23:20:00+00:00, run_after=2025-05-12T23:40:00+00:00
+[2025-05-12 23:46:38,263] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.057 seconds
+[2025-05-12 23:47:08,390] {processor.py:153} INFO - Started process (PID=319) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:47:08,398] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:47:08,398] {logging_mixin.py:115} INFO - [2025-05-12 23:47:08,398] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:47:08,407] {processor.py:651} INFO - DAG(s) dict_keys(['api_pipeline_integration']) retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:47:08,431] {logging_mixin.py:115} INFO - [2025-05-12 23:47:08,431] {dag.py:2371} INFO - Sync 1 DAGs
+[2025-05-12 23:47:08,443] {logging_mixin.py:115} INFO - [2025-05-12 23:47:08,443] {dag.py:2919} INFO - Setting next_dagrun for api_pipeline_integration to 2025-05-12T23:20:00+00:00, run_after=2025-05-12T23:40:00+00:00
+[2025-05-12 23:47:08,451] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.063 seconds
+[2025-05-12 23:47:38,593] {processor.py:153} INFO - Started process (PID=324) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:47:38,601] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:47:38,602] {logging_mixin.py:115} INFO - [2025-05-12 23:47:38,602] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:47:38,609] {processor.py:651} INFO - DAG(s) dict_keys(['api_pipeline_integration']) retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:47:38,623] {logging_mixin.py:115} INFO - [2025-05-12 23:47:38,623] {dag.py:2371} INFO - Sync 1 DAGs
+[2025-05-12 23:47:38,635] {logging_mixin.py:115} INFO - [2025-05-12 23:47:38,635] {dag.py:2919} INFO - Setting next_dagrun for api_pipeline_integration to 2025-05-12T23:20:00+00:00, run_after=2025-05-12T23:40:00+00:00
+[2025-05-12 23:47:38,642] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.055 seconds
+[2025-05-12 23:48:08,787] {processor.py:153} INFO - Started process (PID=329) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:48:08,796] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:48:08,797] {logging_mixin.py:115} INFO - [2025-05-12 23:48:08,797] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:48:08,806] {processor.py:651} INFO - DAG(s) dict_keys(['api_pipeline_integration']) retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:48:08,840] {logging_mixin.py:115} INFO - [2025-05-12 23:48:08,840] {dag.py:2371} INFO - Sync 1 DAGs
+[2025-05-12 23:48:08,855] {logging_mixin.py:115} INFO - [2025-05-12 23:48:08,855] {dag.py:2919} INFO - Setting next_dagrun for api_pipeline_integration to 2025-05-12T23:20:00+00:00, run_after=2025-05-12T23:40:00+00:00
+[2025-05-12 23:48:08,862] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.079 seconds
+[2025-05-12 23:48:37,968] {processor.py:153} INFO - Started process (PID=334) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:48:37,976] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:48:37,976] {logging_mixin.py:115} INFO - [2025-05-12 23:48:37,976] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:48:37,981] {processor.py:651} INFO - DAG(s) dict_keys(['api_pipeline_integration']) retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:48:37,999] {logging_mixin.py:115} INFO - [2025-05-12 23:48:37,998] {dag.py:2371} INFO - Sync 1 DAGs
+[2025-05-12 23:48:38,010] {logging_mixin.py:115} INFO - [2025-05-12 23:48:38,010] {dag.py:2919} INFO - Setting next_dagrun for api_pipeline_integration to 2025-05-12T23:20:00+00:00, run_after=2025-05-12T23:40:00+00:00
+[2025-05-12 23:48:38,019] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.054 seconds
+[2025-05-12 23:48:45,022] {processor.py:153} INFO - Started process (PID=339) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:48:45,022] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:48:45,022] {logging_mixin.py:115} INFO - [2025-05-12 23:48:45,022] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:48:45,028] {processor.py:651} INFO - DAG(s) dict_keys(['api_pipeline_integration']) retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:48:45,044] {logging_mixin.py:115} INFO - [2025-05-12 23:48:45,044] {dag.py:2371} INFO - Sync 1 DAGs
+[2025-05-12 23:48:45,058] {logging_mixin.py:115} INFO - [2025-05-12 23:48:45,057] {dag.py:2919} INFO - Setting next_dagrun for api_pipeline_integration to 2025-05-12T23:20:00+00:00, run_after=2025-05-12T23:40:00+00:00
+[2025-05-12 23:48:45,066] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.047 seconds
+[2025-05-12 23:49:15,232] {processor.py:153} INFO - Started process (PID=347) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:49:15,240] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:49:15,240] {logging_mixin.py:115} INFO - [2025-05-12 23:49:15,240] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:49:15,244] {processor.py:651} INFO - DAG(s) dict_keys(['api_pipeline_integration']) retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:49:15,267] {logging_mixin.py:115} INFO - [2025-05-12 23:49:15,266] {dag.py:2371} INFO - Sync 1 DAGs
+[2025-05-12 23:49:15,285] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.056 seconds
+[2025-05-12 23:49:45,430] {processor.py:153} INFO - Started process (PID=352) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:49:45,438] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:49:45,438] {logging_mixin.py:115} INFO - [2025-05-12 23:49:45,438] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:49:45,445] {processor.py:651} INFO - DAG(s) dict_keys(['api_pipeline_integration']) retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:49:45,464] {logging_mixin.py:115} INFO - [2025-05-12 23:49:45,464] {dag.py:2371} INFO - Sync 1 DAGs
+[2025-05-12 23:49:45,482] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.057 seconds
+[2025-05-12 23:50:15,629] {processor.py:153} INFO - Started process (PID=357) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:50:15,636] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:50:15,637] {logging_mixin.py:115} INFO - [2025-05-12 23:50:15,637] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:50:15,647] {processor.py:651} INFO - DAG(s) dict_keys(['api_pipeline_integration']) retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:50:15,664] {logging_mixin.py:115} INFO - [2025-05-12 23:50:15,664] {dag.py:2371} INFO - Sync 1 DAGs
+[2025-05-12 23:50:15,682] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.058 seconds
+[2025-05-12 23:50:45,812] {processor.py:153} INFO - Started process (PID=362) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:50:45,819] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:50:45,820] {logging_mixin.py:115} INFO - [2025-05-12 23:50:45,820] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:50:45,827] {processor.py:651} INFO - DAG(s) dict_keys(['api_pipeline_integration']) retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:50:45,859] {logging_mixin.py:115} INFO - [2025-05-12 23:50:45,859] {dag.py:2371} INFO - Sync 1 DAGs
+[2025-05-12 23:50:45,877] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.070 seconds
+[2025-05-12 23:51:16,000] {processor.py:153} INFO - Started process (PID=367) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:51:16,008] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:51:16,009] {logging_mixin.py:115} INFO - [2025-05-12 23:51:16,009] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:51:16,018] {processor.py:651} INFO - DAG(s) dict_keys(['api_pipeline_integration']) retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:51:16,037] {logging_mixin.py:115} INFO - [2025-05-12 23:51:16,037] {dag.py:2371} INFO - Sync 1 DAGs
+[2025-05-12 23:51:16,054] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.060 seconds
+[2025-05-12 23:51:46,194] {processor.py:153} INFO - Started process (PID=372) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:51:46,201] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:51:46,202] {logging_mixin.py:115} INFO - [2025-05-12 23:51:46,202] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:51:46,211] {processor.py:651} INFO - DAG(s) dict_keys(['api_pipeline_integration']) retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:51:46,230] {logging_mixin.py:115} INFO - [2025-05-12 23:51:46,229] {dag.py:2371} INFO - Sync 1 DAGs
+[2025-05-12 23:51:46,248] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.058 seconds
+[2025-05-12 23:52:16,379] {processor.py:153} INFO - Started process (PID=377) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:52:16,384] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:52:16,384] {logging_mixin.py:115} INFO - [2025-05-12 23:52:16,384] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:52:16,394] {processor.py:651} INFO - DAG(s) dict_keys(['api_pipeline_integration']) retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:52:16,410] {logging_mixin.py:115} INFO - [2025-05-12 23:52:16,410] {dag.py:2371} INFO - Sync 1 DAGs
+[2025-05-12 23:52:16,429] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.055 seconds
+[2025-05-12 23:52:46,572] {processor.py:153} INFO - Started process (PID=382) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:52:46,579] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:52:46,580] {logging_mixin.py:115} INFO - [2025-05-12 23:52:46,580] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:52:46,586] {processor.py:651} INFO - DAG(s) dict_keys(['api_pipeline_integration']) retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:52:46,605] {logging_mixin.py:115} INFO - [2025-05-12 23:52:46,605] {dag.py:2371} INFO - Sync 1 DAGs
+[2025-05-12 23:52:46,625] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.057 seconds
+[2025-05-12 23:53:16,768] {processor.py:153} INFO - Started process (PID=387) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:53:16,775] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:53:16,776] {logging_mixin.py:115} INFO - [2025-05-12 23:53:16,776] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:53:16,783] {processor.py:651} INFO - DAG(s) dict_keys(['api_pipeline_integration']) retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:53:16,798] {logging_mixin.py:115} INFO - [2025-05-12 23:53:16,798] {dag.py:2371} INFO - Sync 1 DAGs
+[2025-05-12 23:53:16,815] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.052 seconds
+[2025-05-12 23:53:46,956] {processor.py:153} INFO - Started process (PID=392) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:53:46,963] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:53:46,964] {logging_mixin.py:115} INFO - [2025-05-12 23:53:46,964] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:53:46,969] {processor.py:651} INFO - DAG(s) dict_keys(['api_pipeline_integration']) retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:53:46,988] {logging_mixin.py:115} INFO - [2025-05-12 23:53:46,988] {dag.py:2371} INFO - Sync 1 DAGs
+[2025-05-12 23:53:47,007] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.054 seconds
+[2025-05-12 23:54:17,147] {processor.py:153} INFO - Started process (PID=397) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:54:17,148] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:54:17,148] {logging_mixin.py:115} INFO - [2025-05-12 23:54:17,148] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:54:17,153] {processor.py:651} INFO - DAG(s) dict_keys(['api_pipeline_integration']) retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:54:17,169] {logging_mixin.py:115} INFO - [2025-05-12 23:54:17,169] {dag.py:2371} INFO - Sync 1 DAGs
+[2025-05-12 23:54:17,191] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.045 seconds
+[2025-05-12 23:54:25,210] {processor.py:153} INFO - Started process (PID=402) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:54:25,210] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:54:25,210] {logging_mixin.py:115} INFO - [2025-05-12 23:54:25,210] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:54:25,214] {processor.py:651} INFO - DAG(s) dict_keys(['api_pipeline_integration']) retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:54:25,231] {logging_mixin.py:115} INFO - [2025-05-12 23:54:25,231] {dag.py:2371} INFO - Sync 1 DAGs
+[2025-05-12 23:54:25,250] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.044 seconds
+[2025-05-12 23:54:55,402] {processor.py:153} INFO - Started process (PID=409) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:54:55,402] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:54:55,402] {logging_mixin.py:115} INFO - [2025-05-12 23:54:55,402] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:54:55,406] {processor.py:651} INFO - DAG(s) dict_keys(['api_pipeline_integration']) retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:54:55,424] {logging_mixin.py:115} INFO - [2025-05-12 23:54:55,424] {dag.py:2371} INFO - Sync 1 DAGs
+[2025-05-12 23:54:55,438] {logging_mixin.py:115} INFO - [2025-05-12 23:54:55,438] {dag.py:2919} INFO - Setting next_dagrun for api_pipeline_integration to 2025-05-12T23:40:00+00:00, run_after=2025-05-13T00:00:00+00:00
+[2025-05-12 23:54:55,445] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.045 seconds
+[2025-05-12 23:55:15,531] {processor.py:153} INFO - Started process (PID=414) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:55:15,539] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:55:15,540] {logging_mixin.py:115} INFO - [2025-05-12 23:55:15,539] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:55:15,549] {processor.py:651} INFO - DAG(s) dict_keys(['api_pipeline_integration']) retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:55:15,565] {logging_mixin.py:115} INFO - [2025-05-12 23:55:15,564] {dag.py:2371} INFO - Sync 1 DAGs
+[2025-05-12 23:55:15,577] {logging_mixin.py:115} INFO - [2025-05-12 23:55:15,577] {dag.py:2919} INFO - Setting next_dagrun for api_pipeline_integration to 2025-05-12T23:40:00+00:00, run_after=2025-05-13T00:00:00+00:00
+[2025-05-12 23:55:15,584] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.058 seconds
+[2025-05-12 23:55:18,559] {processor.py:153} INFO - Started process (PID=419) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:55:18,560] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:55:18,560] {logging_mixin.py:115} INFO - [2025-05-12 23:55:18,560] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:55:18,566] {processor.py:651} INFO - DAG(s) dict_keys(['api_pipeline_integration']) retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:55:18,581] {logging_mixin.py:115} INFO - [2025-05-12 23:55:18,581] {dag.py:2371} INFO - Sync 1 DAGs
+[2025-05-12 23:55:18,592] {logging_mixin.py:115} INFO - [2025-05-12 23:55:18,592] {dag.py:2919} INFO - Setting next_dagrun for api_pipeline_integration to 2025-05-12T23:40:00+00:00, run_after=2025-05-13T00:00:00+00:00
+[2025-05-12 23:55:18,601] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.046 seconds
+[2025-05-12 23:55:48,798] {processor.py:153} INFO - Started process (PID=426) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:55:48,806] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:55:48,807] {logging_mixin.py:115} INFO - [2025-05-12 23:55:48,807] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:55:48,815] {processor.py:651} INFO - DAG(s) dict_keys(['api_pipeline_integration']) retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:55:48,837] {logging_mixin.py:115} INFO - [2025-05-12 23:55:48,837] {dag.py:2371} INFO - Sync 1 DAGs
+[2025-05-12 23:55:48,848] {logging_mixin.py:115} INFO - [2025-05-12 23:55:48,848] {dag.py:2919} INFO - Setting next_dagrun for api_pipeline_integration to 2025-05-12T23:40:00+00:00, run_after=2025-05-13T00:00:00+00:00
+[2025-05-12 23:55:48,855] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.060 seconds
+[2025-05-12 23:56:18,977] {processor.py:153} INFO - Started process (PID=431) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:56:18,985] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:56:18,985] {logging_mixin.py:115} INFO - [2025-05-12 23:56:18,985] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:56:18,989] {processor.py:651} INFO - DAG(s) dict_keys(['api_pipeline_integration']) retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:56:19,003] {logging_mixin.py:115} INFO - [2025-05-12 23:56:19,003] {dag.py:2371} INFO - Sync 1 DAGs
+[2025-05-12 23:56:19,015] {logging_mixin.py:115} INFO - [2025-05-12 23:56:19,015] {dag.py:2919} INFO - Setting next_dagrun for api_pipeline_integration to 2025-05-12T23:40:00+00:00, run_after=2025-05-13T00:00:00+00:00
+[2025-05-12 23:56:19,023] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.047 seconds
+[2025-05-12 23:56:49,139] {processor.py:153} INFO - Started process (PID=436) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:56:49,139] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:56:49,140] {logging_mixin.py:115} INFO - [2025-05-12 23:56:49,140] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:56:49,145] {processor.py:651} INFO - DAG(s) dict_keys(['api_pipeline_integration']) retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:56:49,160] {logging_mixin.py:115} INFO - [2025-05-12 23:56:49,160] {dag.py:2371} INFO - Sync 1 DAGs
+[2025-05-12 23:56:49,172] {logging_mixin.py:115} INFO - [2025-05-12 23:56:49,172] {dag.py:2919} INFO - Setting next_dagrun for api_pipeline_integration to 2025-05-12T23:40:00+00:00, run_after=2025-05-13T00:00:00+00:00
+[2025-05-12 23:56:49,179] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.042 seconds
+[2025-05-12 23:57:19,324] {processor.py:153} INFO - Started process (PID=441) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:57:19,325] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:57:19,325] {logging_mixin.py:115} INFO - [2025-05-12 23:57:19,325] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:57:19,331] {processor.py:651} INFO - DAG(s) dict_keys(['api_pipeline_integration']) retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:57:19,348] {logging_mixin.py:115} INFO - [2025-05-12 23:57:19,348] {dag.py:2371} INFO - Sync 1 DAGs
+[2025-05-12 23:57:19,359] {logging_mixin.py:115} INFO - [2025-05-12 23:57:19,359] {dag.py:2919} INFO - Setting next_dagrun for api_pipeline_integration to 2025-05-12T23:40:00+00:00, run_after=2025-05-13T00:00:00+00:00
+[2025-05-12 23:57:19,366] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.046 seconds
+[2025-05-12 23:57:36,420] {processor.py:153} INFO - Started process (PID=446) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:57:36,420] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:57:36,420] {logging_mixin.py:115} INFO - [2025-05-12 23:57:36,420] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:57:36,425] {logging_mixin.py:115} INFO - [2025-05-12 23:57:36,424] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 6, in <module>
+    dag_path = Path(__file__).parent.absolute()
+NameError: name 'Path' is not defined
+[2025-05-12 23:57:36,425] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:57:36,440] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.022 seconds
+[2025-05-12 23:58:06,620] {processor.py:153} INFO - Started process (PID=451) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:58:06,628] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:58:06,629] {logging_mixin.py:115} INFO - [2025-05-12 23:58:06,629] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:58:06,636] {logging_mixin.py:115} INFO - [2025-05-12 23:58:06,635] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 6, in <module>
+    dag_path = Path(__file__).parent.absolute()
+NameError: name 'Path' is not defined
+[2025-05-12 23:58:06,636] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:58:06,669] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.053 seconds
+[2025-05-12 23:58:36,806] {processor.py:153} INFO - Started process (PID=456) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:58:36,814] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:58:36,815] {logging_mixin.py:115} INFO - [2025-05-12 23:58:36,815] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:58:36,822] {logging_mixin.py:115} INFO - [2025-05-12 23:58:36,821] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 6, in <module>
+    dag_path = Path(__file__).parent.absolute()
+NameError: name 'Path' is not defined
+[2025-05-12 23:58:36,822] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:58:36,842] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.040 seconds
+[2025-05-12 23:59:06,986] {processor.py:153} INFO - Started process (PID=461) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:59:06,993] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:59:06,994] {logging_mixin.py:115} INFO - [2025-05-12 23:59:06,994] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:59:06,996] {logging_mixin.py:115} INFO - [2025-05-12 23:59:06,996] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 6, in <module>
+    dag_path = Path(__file__).parent.absolute()
+NameError: name 'Path' is not defined
+[2025-05-12 23:59:06,996] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:59:07,010] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.025 seconds
+[2025-05-12 23:59:37,215] {processor.py:153} INFO - Started process (PID=466) to work on /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:59:37,216] {processor.py:641} INFO - Processing file /opt/airflow/dags/extract_scheduler.py for tasks to queue
+[2025-05-12 23:59:37,217] {logging_mixin.py:115} INFO - [2025-05-12 23:59:37,217] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:59:37,221] {logging_mixin.py:115} INFO - [2025-05-12 23:59:37,221] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/extract_scheduler.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_scheduler.py", line 6, in <module>
+    dag_path = Path(__file__).parent.absolute()
+NameError: name 'Path' is not defined
+[2025-05-12 23:59:37,221] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_scheduler.py
+[2025-05-12 23:59:37,237] {processor.py:161} INFO - Processing /opt/airflow/dags/extract_scheduler.py took 0.026 seconds

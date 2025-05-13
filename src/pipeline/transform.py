@@ -14,8 +14,16 @@ cfg = Config()
 kc = cfg.kafka
 
 log_level = getattr(logging, cfg.logging_level.upper(), logging.INFO)
-logging.basicConfig(level=log_level, format="%(asctime)s [%(levelname)s] %(message)s")
-logger = logging.getLogger("Transformer")
+log_file = "logs/kafka_logs/transform.log"
+logging.basicConfig(
+    level=log_level,
+    format="%(asctime)s [%(levelname)s] %(message)s",
+    handlers=[
+        logging.FileHandler(log_file),
+        logging.StreamHandler()
+    ]
+)
+logger = logging.getLogger("transform")
 
 class Transformer:
     def __init__(self):

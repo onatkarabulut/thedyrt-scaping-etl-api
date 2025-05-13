@@ -19,9 +19,18 @@ KAFKA_BOOTSTRAP = ",".join(cfg.kafka["brokers"])
 ENRICHED_TOPIC  = cfg.kafka["topic_enriched"]
 GROUP_ID        = cfg.kafka["group_load"]
 
-level = getattr(logging, cfg.logging_level.upper(), logging.INFO)
-logging.basicConfig(level=level, format="%(asctime)s [%(levelname)s] %(message)s")
+log_level = getattr(logging, cfg.logging_level.upper(), logging.INFO)
+log_file = "logs/kafka_logs/loader.log"
+logging.basicConfig(
+    level=log_level,
+    format="%(asctime)s [%(levelname)s] %(message)s",
+    handlers=[
+        logging.FileHandler(log_file),
+        logging.StreamHandler()
+    ]
+)
 logger = logging.getLogger("Loader")
+
 
 meta = MetaData()
 campgrounds = Table(
