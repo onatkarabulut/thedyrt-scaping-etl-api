@@ -25,7 +25,7 @@ def _detect_host() -> str:
         requests.get(test_url, timeout=2)
         return "host.docker.internal"
     except Exception as e:
-        return e
+        return str(e)
 
 
 def check_fastapi_health() -> None:

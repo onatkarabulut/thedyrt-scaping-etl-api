@@ -80,10 +80,14 @@ class Transformer:
     def _flush(self, batch: List[dict]):
         df = pd.json_normalize(batch, sep=".")
 
-        df["attributes.price-low"]      = pd.to_numeric(df.get("attributes.price-low", 0),  errors="coerce").fillna(0) / 100
-        df["attributes.price-high"]     = pd.to_numeric(df.get("attributes.price-high",0), errors="coerce").fillna(0) / 100
-        df["attributes.photos-count"]   = pd.to_numeric(df.get("attributes.photos-count",0), errors="coerce").fillna(0).astype(int)
-        df["attributes.reviews-count"]  = pd.to_numeric(df.get("attributes.reviews-count",0), errors="coerce").fillna(0).astype(int)
+        df["attributes.price-low"]      = pd.to_numeric(df.get("attributes.price-low", 0), \
+                                                        errors="coerce").fillna(0) / 100
+        df["attributes.price-high"]     = pd.to_numeric(df.get("attributes.price-high",0), \
+                                                        errors="coerce").fillna(0) / 100
+        df["attributes.photos-count"]   = pd.to_numeric(df.get("attributes.photos-count",0), \
+                                                        errors="coerce").fillna(0).astype(int)
+        df["attributes.reviews-count"]  = pd.to_numeric(df.get("attributes.reviews-count",0), \
+                                                        errors="coerce").fillna(0).astype(int)
 
         enriched = []
         for _, row in df.iterrows():
