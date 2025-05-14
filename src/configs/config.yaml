@@ -5,7 +5,7 @@ kafka:
   topic_raw: "thedyrt-raw"
   topic_raw_detailed: "thedyrt-raw-detailed"
   topic_enriched: "thedyrt-enriched"
-  topic_enriched_detailed: thedyrt-enriched-detailed
+  topic_enriched_detailed: "thedyrt-enriched-detailed"
   group_extract: "campground-extractor"
   group_transform: "campground-transformer"
   group_load: "campground-loader"
