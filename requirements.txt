@@ -67,7 +67,11 @@ sniffio==1.3.1
 httptools==0.6.4
 websockets==15.0.1
 uvloop==0.21.0
-
+sqlalchemy==2.0.40
+confluent_kafka==2.10.0
+pyyaml==6.0.2
+numpy==2.2.5
+requests==2.2.3
 # Optional - if you're using GraphQL or experimental APIs
 # strawberry-graphql
 # ariadne
