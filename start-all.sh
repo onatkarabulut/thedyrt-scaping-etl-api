@@ -19,6 +19,8 @@ set -e
 echo "=========================================="
 echo "Starting Docker Compose"
 echo "=========================================="
+sudo mkdir -p logs
+sudo touch logs/docker.log
 docker-compose up > logs/docker.log 2>&1 &
 
 echo "=========================================="
